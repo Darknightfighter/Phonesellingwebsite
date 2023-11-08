@@ -407,7 +407,7 @@ h6 {
 --------------------------------------------------------------*/
 
 /* @extend display-flex; */
-display-flex, .display-flex, .display-flex-center, .signup-content, .signin-content, .social-login, .socials {
+display-flex, .display-flex, .display-flex-center, .signup-content, .login-content, .social-login, .socials {
   display: flex;
   display: -webkit-flex; }
 
@@ -573,7 +573,7 @@ input[type=radio] {
   -o-appearance: radio !important;
   -ms-appearance: radio !important; }
 
-.signup-image img, .signin-image img {
+.signup-image img, .login-image img {
   max-width: 100%;
   height: auto; }
 
@@ -670,7 +670,7 @@ figure {
 .signup-content {
   padding: 75px 0; }
 
-.signup-form, .signup-image, .signin-form, .signin-image {
+.signup-form, .signup-image, .login-form, .login-image {
   width: 50%;
   overflow: hidden; }
 
@@ -704,10 +704,10 @@ figure {
   .form-submit:hover {
     background: #4292dc; }
 
-#signin {
+#login {
   margin-top: 16px; }
 
-.signup-image-link {
+.signup-image-link, .login-image-link {
   font-size: 14px;
   color: #222;
   display: block;
@@ -865,7 +865,7 @@ label.valid {
 .material-icons-name {
   font-size: 18px; }
 
-.signin-content {
+.login-content {
   padding-top: 67px;
   padding-bottom: 87px; }
 
@@ -921,11 +921,11 @@ label.valid {
 .zmdi-google {
   background: #e72734; }
 
-.signin-form {
+.login-form {
   margin-right: 90px;
   margin-left: 80px; }
 
-.signin-image {
+.login-image {
   margin-left: 110px;
   margin-right: 20px;
   margin-top: 10px; }
@@ -938,7 +938,7 @@ label.valid {
   .container {
     max-width: 1200px; } }
 @media screen and (max-width: 768px) {
-  .signup-content, .signin-content {
+  .signup-content, .login-content {
     flex-direction: column;
     -moz-flex-direction: column;
     -webkit-flex-direction: column;
@@ -957,7 +957,7 @@ label.valid {
     /* box-sizing: border-box; */
     padding: 0 30px; }
 
-  .signin-image {
+  .login-image {
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 50px;
@@ -967,7 +967,7 @@ label.valid {
     -o-order: 2;
     -ms-order: 2; }
 
-  .signup-form, .signup-image, .signin-form, .signin-image {
+  .signup-form, .signup-image, .login-form, .login-image {
     width: auto; }
 
   .social-login {
@@ -980,7 +980,7 @@ label.valid {
   .form-button {
     text-align: center; }
 
-  .signin-form {
+  .login-form {
     order: 1;
     -moz-order: 1;
     -webkit-order: 1;

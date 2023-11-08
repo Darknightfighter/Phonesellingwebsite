@@ -24,6 +24,9 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  
+  <!-- Font Icon -->
+  <link rel="stylesheet" href="assets/fonts/material-icon/css/material-design-iconic-font.min.css">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style_ls.css" rel="stylesheet">
@@ -49,7 +52,7 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto " href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto " href="./index.jsp">Home</a></li>
           <li><a class="nav-link scrollto " href="./search.jsp">Search</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
@@ -135,7 +138,7 @@
                     </div>
                     <div class="signup-image">
                         <figure><img src="assets/img/signup-image.jpg" alt="sing up image"></figure>
-                        <a href="#" class="signup-image-link a-signup">I am already member</a>
+                        <a href="./login.jsp" class="signup-image-link a-signup">Already have an account?</a>
                     </div>
                 </div>
             </div>
