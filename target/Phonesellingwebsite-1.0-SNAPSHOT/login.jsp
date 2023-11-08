@@ -24,9 +24,12 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  
+  <!-- Font Icon -->
+  <link rel="stylesheet" href="assets/fonts/material-icon/css/material-design-iconic-font.min.css">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/style_ls.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Arsha
@@ -50,7 +53,7 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto " href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="./search.jsp">Search</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
           <li><a class="nav-link   scrollto" href="#portfolio">Portfolio</a></li>
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
@@ -71,7 +74,12 @@
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+          <li class="dropdown"><a href="#"><i class="bi bi-person custom-icon"></i></a>
+            <ul>
+              <li><a href="./signup.jsp">Sign up</a></li>
+              <li><a href="./index.jsp">Main page <i class="bi bi-arrow-return-left"></i></a></li>
+            </ul>
+          </li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -87,20 +95,53 @@
 
         <ol>
           <li><a href="index.html">Home</a></li>
-          <li>Inner Page</li>
+          <li>Log in Page</li>
         </ol>
-        <h2>Inner Page</h2>
+        <h2>Log in Page</h2>
 
       </div>
     </section><!-- End Breadcrumbs -->
 
-    <section class="inner-page">
-      <div class="container">
-        <p>
-          Example inner page template
-        </p>
-      </div>
-    </section>
+    <!-- Log in  Form -->
+        <section class="login">
+            <div class="container-login">
+                <div class="signin-content">
+                    <div class="signin-image">
+                        <figure><img src="assets/img/signin-image.jpg" alt="sing up image"></figure>
+                        <a href="#" class="signup-image-link a-login">Create an account</a>
+                    </div>
+
+                    <div class="signin-form">
+                        <h2 class="form-title h2-style">Sign up</h2>
+                        <form method="POST" class="register-form" id="login-form">
+                            <div class="form-group">
+                                <label for="your_name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <input type="text" name="your_name" id="your_name" placeholder="Your Name"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="your_pass"><i class="zmdi zmdi-lock"></i></label>
+                                <input type="password" name="your_pass" id="your_pass" placeholder="Password"/>
+                            </div>
+                            <div class="form-group">
+                                <input type="checkbox" name="remember-me" id="remember-me" class="agree-term" />
+                                <label for="remember-me" class="label-agree-term"><span><span></span></span>Remember me</label>
+                            </div>
+                            <div class="form-group form-button">
+                                <input type="submit" name="signin" id="signin" class="form-submit" value="Log in"/>
+                            </div>
+                        </form>
+                        <div class="social-login">
+                            <span class="social-label">Or login with</span>
+                            <ul class="socials">
+                                <li><a href="#"><i class="display-flex-center zmdi zmdi-facebook a-login"></i></a></li>
+                                <li><a href="#"><i class="display-flex-center zmdi zmdi-twitter a-login"></i></a></li>
+                                <li><a href="#"><i class="display-flex-center zmdi zmdi-google a-login"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
   </main><!-- End #main -->
 
