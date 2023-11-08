@@ -52,7 +52,7 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto " href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto " href="./index.jsp">Home</a></li>
           <li><a class="nav-link scrollto" href="./search.jsp">Search</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
           <li><a class="nav-link   scrollto" href="#portfolio">Portfolio</a></li>
@@ -105,14 +105,14 @@
     <!-- Log in  Form -->
         <section class="login">
             <div class="container-login">
-                <div class="signin-content">
-                    <div class="signin-image">
-                        <figure><img src="assets/img/signin-image.jpg" alt="sing up image"></figure>
-                        <a href="#" class="signup-image-link a-login">Create an account</a>
+                <div class="login-content">
+                    <div class="login-image">
+                        <figure><img src="assets/img/login-image.jpg" alt="sing up image"></figure>
+                        <a href="./signup.jsp" class="login-image-link a-login">You don't have an account?</a>
                     </div>
 
-                    <div class="signin-form">
-                        <h2 class="form-title h2-style">Sign up</h2>
+                    <div class="login-form">
+                        <h2 class="form-title h2-style">Log in</h2>
                         <form method="POST" class="register-form" id="login-form">
                             <div class="form-group">
                                 <label for="your_name"><i class="zmdi zmdi-account material-icons-name"></i></label>
@@ -127,7 +127,7 @@
                                 <label for="remember-me" class="label-agree-term"><span><span></span></span>Remember me</label>
                             </div>
                             <div class="form-group form-button">
-                                <input type="submit" name="signin" id="signin" class="form-submit" value="Log in"/>
+                                <input type="submit" name="login" id="login" class="form-submit" value="Log in"/>
                             </div>
                         </form>
                         <div class="social-login">
