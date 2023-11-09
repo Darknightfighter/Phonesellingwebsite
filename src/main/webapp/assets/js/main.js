@@ -193,25 +193,25 @@
    * Porfolio isotope and filter
    */
   window.addEventListener('load', () => {
-    let portfolioContainer = select('.portfolio-container');
-    if (portfolioContainer) {
-      let portfolioIsotope = new Isotope(portfolioContainer, {
-        itemSelector: '.portfolio-item'
+    let productContainer = select('.product-container');
+    if (productContainer) {
+      let productIsotope = new Isotope(productContainer, {
+        itemSelector: '.product-item'
       });
 
-      let portfolioFilters = select('#portfolio-flters li', true);
+      let productFilters = select('#product-flters li', true);
 
-      on('click', '#portfolio-flters li', function(e) {
+      on('click', '#product-flters li', function(e) {
         e.preventDefault();
-        portfolioFilters.forEach(function(el) {
+        productFilters.forEach(function(el) {
           el.classList.remove('filter-active');
         });
         this.classList.add('filter-active');
 
-        portfolioIsotope.arrange({
+        productIsotope.arrange({
           filter: this.getAttribute('data-filter')
         });
-        portfolioIsotope.on('arrangeComplete', function() {
+        productIsotope.on('arrangeComplete', function() {
           AOS.refresh()
         });
       }, true);
@@ -220,16 +220,16 @@
   });
 
   /**
-   * Initiate portfolio lightbox 
+   * Initiate product lightbox 
    */
-  const portfolioLightbox = GLightbox({
-    selector: '.portfolio-lightbox'
+  const productLightbox = GLightbox({
+    selector: '.product-lightbox'
   });
 
   /**
    * Portfolio details slider
    */
-  new Swiper('.portfolio-details-slider', {
+  new Swiper('.product-details-slider', {
     speed: 400,
     loop: true,
     autoplay: {
@@ -253,6 +253,17 @@
       once: true,
       mirror: false
     });
+  });
+  
+  /**
+   * Stop the person button from returning to the top of the page whenever user click it
+   */
+  // Get the link element
+  var link = document.getElementById('custom-link-button');
+
+  // Add an event listener to prevent the default action
+  link.addEventListener('click', function(event) {
+    event.preventDefault();
   });
 
 })()
