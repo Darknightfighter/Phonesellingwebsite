@@ -102,152 +102,144 @@
     </section><!-- End Breadcrumbs -->
 
     <!-- Cart Form -->
-    <section class="h-100 h-custom" style="background-color: #eee;">
-        <div class="container h-100 py-5">
-          <div class="row d-flex justify-content-center align-items-center h-100">
-            <div class="col">
-              <div class="card shopping-cart" style="border-radius: 15px;">
-                <div class="card-body text-black">
-                  <div class="row">
-                    <div class="col-lg-6 px-5 py-4">
+    <section class="pt-5 pb-5">
+        <div class="container">
+          <div class="row w-100">
+              <div class="col-lg-12 col-md-12 col-12">
+                  <h3 class="display-5 mb-2 text-center">Shopping Cart</h3>
+                  <p class="mb-5 text-center">
+                      <i class="text-info font-weight-bold">3</i> items in your cart</p>
+                  <table id="shoppingCart" class="table table-condensed table-responsive">
+                      <thead>
+                          <tr>
+                              <th style="width:60%">Product</th>
+                              <th style="width:12%">Price</th>
+                              <th style="width:10%">Quantity</th>
+                              <th style="width:16%"></th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td data-th="Product">
+                                  <div class="row">
+                                      <div class="col-md-3 text-left">
+                                          <img src="https://via.placeholder.com/250x250/5fa9f8/ffffff" alt="" class="img-fluid d-none d-md-block rounded mb-2 shadow ">
+                                      </div>
+                                      <div class="col-md-9 text-left mt-sm-2">
+                                          <h4>Product Name</h4>
+                                          <p class="font-weight-light">Brand &amp; Name</p>
+                                      </div>
+                                  </div>
+                              </td>
+                              <td data-th="Price">$49.00</td>
+                              <td class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                                <button class="btn btn-link px-2"
+                                  onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                  <i class="bi bi-dash-lg"></i>
+                                </button>
 
-                      <h3 class="mb-5 pt-2 text-center fw-bold text-uppercase">Your products</h3>
+                                <input id="form1" min="0" name="quantity" value="1" type="number"
+                                  class="form-control form-control-sm" />
 
-                      <div class="d-flex align-items-center mb-5">
-                        <div class="flex-shrink-0">
-                          <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/13.webp"
-                            class="img-fluid" style="width: 150px;" alt="Generic placeholder image">
-                        </div>
-                        <div class="flex-grow-1 ms-3">
-                          <a href="#!" class="float-end text-black"><i class="fas fa-times"></i></a>
-                          <h5 class="text-primary">Samsung Galaxy M11 64GB</h5>
-                          <h6 style="color: #9e9e9e;">Color: white</h6>
-                          <div class="d-flex align-items-center">
-                            <p class="fw-bold mb-0 me-5 pe-3">799$</p>
-                            <div class="def-number-input number-input safari_only">
-                              <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
-                                class="minus"></button>
-                              <input class="quantity fw-bold text-black" min="0" name="quantity" value="1"
-                                type="number">
-                              <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
-                                class="plus"></button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                                <button class="btn btn-link px-2"
+                                  onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                  <i class="bi bi-plus-lg"></i>
+                                </button>
+                              </td>
+                              <!--<td class="test d-flex flex-row">
+                                <button class="btn btn-link px-2" onclick="if (this.previousElementSibling.value > 0) this.previousElementSibling.value--">
+                                  <i class="bi bi-dash-lg"></i>
+                                </button>  
+                                  
+                                <input type="number" class="form-control form-control-lg text-center" value="1">
 
-                      <div class="d-flex align-items-center mb-5">
-                        <div class="flex-shrink-0">
-                          <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/6.webp"
-                            class="img-fluid" style="width: 150px;" alt="Generic placeholder image">
-                        </div>
-                        <div class="flex-grow-1 ms-3">
-                          <a href="#!" class="float-end text-black"><i class="fas fa-times"></i></a>
-                          <h5 class="text-primary">Headphones Bose 35 II</h5>
-                          <h6 style="color: #9e9e9e;">Color: Red</h6>
-                          <div class="d-flex align-items-center">
-                            <p class="fw-bold mb-0 me-5 pe-3">239$</p>
-                            <div class="def-number-input number-input safari_only">
-                              <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
-                                class="minus"></button>
-                              <input class="quantity fw-bold text-black" min="0" name="quantity" value="1"
-                                type="number">
-                              <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
-                                class="plus"></button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="d-flex align-items-center mb-5">
-                        <div class="flex-shrink-0">
-                          <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/1.webp"
-                            class="img-fluid" style="width: 150px;" alt="Generic placeholder image">
-                        </div>
-                        <div class="flex-grow-1 ms-3">
-                          <a href="#!" class="float-end text-black"><i class="fas fa-times"></i></a>
-                          <h5 class="text-primary">iPad 9.7 6-gen WiFi 32GB</h5>
-                          <h6 style="color: #9e9e9e;">Color: rose pink</h6>
-                          <div class="d-flex align-items-center">
-                            <p class="fw-bold mb-0 me-5 pe-3">659$</p>
-                            <div class="def-number-input number-input safari_only">
-                              <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
-                                class="minus"></button>
-                              <input class="quantity fw-bold text-black" min="0" name="quantity" value="2"
-                                type="number">
-                              <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
-                                class="plus"></button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                      <hr class="mb-4" style="height: 2px; background-color: #1266f1; opacity: 1;">
-
-                      <div class="d-flex justify-content-between px-x">
-                        <p class="fw-bold">Discount:</p>
-                        <p class="fw-bold">95$</p>
-                      </div>
-                      <div class="d-flex justify-content-between p-2 mb-2" style="background-color: #e1f5fe;">
-                        <h5 class="fw-bold mb-0">Total:</h5>
-                        <h5 class="fw-bold mb-0">2261$</h5>
-                      </div>
-
-                    </div>
-                    <div class="col-lg-6 px-5 py-4">
-
-                      <h3 class="mb-5 pt-2 text-center fw-bold text-uppercase">Payment</h3>
-
-                      <form class="mb-5">
-
-                        <div class="form-outline mb-5">
-                          <input type="text" id="typeText" class="form-control form-control-lg" siez="17"
-                            value="1234 5678 9012 3457" minlength="19" maxlength="19" />
-                          <label class="form-label" for="typeText">Card Number</label>
-                        </div>
-
-                        <div class="form-outline mb-5">
-                          <input type="text" id="typeName" class="form-control form-control-lg" siez="17"
-                            value="John Smith" />
-                          <label class="form-label" for="typeName">Name on card</label>
-                        </div>
-
-                        <div class="row">
-                          <div class="col-md-6 mb-5">
-                            <div class="form-outline">
-                              <input type="text" id="typeExp" class="form-control form-control-lg" value="01/22"
-                                size="7" id="exp" minlength="7" maxlength="7" />
-                              <label class="form-label" for="typeExp">Expiration</label>
-                            </div>
-                          </div>
-                          <div class="col-md-6 mb-5">
-                            <div class="form-outline">
-                              <input type="password" id="typeText" class="form-control form-control-lg"
-                                value="&#9679;&#9679;&#9679;" size="1" minlength="3" maxlength="3" />
-                              <label class="form-label" for="typeText">Cvv</label>
-                            </div>
-                          </div>
-                        </div>
-
-                        <p class="mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit <a
-                            href="#!">obcaecati sapiente</a>.</p>
-
-                        <button type="button" class="btn btn-primary btn-block btn-lg">Buy now</button>
-
-                        <h5 class="fw-bold mb-5" style="position: absolute; bottom: 0;">
-                          <a href="#!"><i class="fas fa-angle-left me-2"></i>Back to shopping</a>
-                        </h5>
-
-                      </form>
-
-                    </div>
+                                <button class="btn btn-link px-2" onclick="this.nextElementSibling.value++">
+                                  <i class="bi bi-plus-lg"></i>
+                                </button>
+                              </td>-->
+                              <td class="actions" data-th="">
+                                  <div class="text-right">
+                                      <button class="btn btn-white border-secondary bg-white btn-md mb-2">
+                                          <i class="bi bi-arrow-repeat"></i>
+                                      </button>
+                                      <button class="btn btn-white border-secondary bg-white btn-md mb-2">
+                                          <i class="bi bi-trash"></i>
+                                      </button>
+                                  </div>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td data-th="Product">
+                                  <div class="row">
+                                      <div class="col-md-3 text-left">
+                                          <img src="https://via.placeholder.com/250x250/5fa9f8/ffffff" alt="" class="img-fluid d-none d-md-block rounded mb-2 shadow ">
+                                      </div>
+                                      <div class="col-md-9 text-left mt-sm-2">
+                                          <h4>Product Name</h4>
+                                          <p class="font-weight-light">Brand &amp; Name</p>
+                                      </div>
+                                  </div>
+                              </td>
+                              <td data-th="Price">$49.00</td>
+                              <td data-th="Quantity">
+                                  <input type="number" class="form-control form-control-lg text-center" value="1">
+                              </td>
+                              <td class="actions" data-th="">
+                                  <div class="text-right">
+                                      <button class="btn btn-white border-secondary bg-white btn-md mb-2">
+                                          <i class="bi bi-arrow-repeat"></i>
+                                      </button>
+                                      <button class="btn btn-white border-secondary bg-white btn-md mb-2">
+                                          <i class="bi bi-trash"></i>
+                                      </button>
+                                  </div>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td data-th="Product">
+                                  <div class="row">
+                                      <div class="col-md-3 text-left">
+                                          <img src="https://via.placeholder.com/250x250/5fa9f8/ffffff" alt="" class="img-fluid d-none d-md-block rounded mb-2 shadow ">
+                                      </div>
+                                      <div class="col-md-9 text-left mt-sm-2">
+                                          <h4>Product Name</h4>
+                                          <p class="font-weight-light">Brand &amp; Name</p>
+                                      </div>
+                                  </div>
+                              </td>
+                              <td data-th="Price">$49.00</td>
+                              <td data-th="Quantity">
+                                  <input type="number" class="form-control form-control-lg text-center" value="1">
+                              </td>
+                              <td class="actions" data-th="">
+                                  <div class="text-right">
+                                      <button class="btn btn-white border-secondary bg-white btn-md mb-2">
+                                          <i class="bi bi-arrow-repeat"></i>
+                                      </button>
+                                      <button class="btn btn-white border-secondary bg-white btn-md mb-2">
+                                          <i class="bi bi-trash"></i>
+                                      </button>
+                                  </div>
+                              </td>
+                          </tr>
+                      </tbody>
+                  </table>
+                  <div class="float-right text-right">
+                      <h4>Subtotal:</h4>
+                      <h1>$99.00</h1>
                   </div>
-
-                </div>
               </div>
-            </div>
           </div>
-        </div>
+          <div class="row mt-4 d-flex align-items-center">
+              <div class="col-sm-6 order-md-2 text-right">
+                  <a href="catalog.html" class="btn btn-primary mb-4 btn-lg pl-5 pr-5">Checkout</a>
+              </div>
+              <div class="col-sm-6 mb-3 mb-m-1 order-md-1 text-md-left">
+                  <a href="catalog.html">
+                      <i class="fas fa-arrow-left mr-2"></i> Continue Shopping</a>
+              </div>
+          </div>
+      </div>
     </section>
 
   </main><!-- End #main -->
