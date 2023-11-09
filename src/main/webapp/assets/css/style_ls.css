@@ -405,7 +405,6 @@ h6 {
 /*--------------------------------------------------------------
 # Signup-Login
 --------------------------------------------------------------*/
-
 /* @extend display-flex; */
 display-flex, .display-flex, .display-flex-center, .signup-content, .login-content, .social-login, .socials {
   display: flex;
@@ -664,7 +663,7 @@ figure {
   -ms-transform: translate(-50%, -50%); }
 
 .signup, .login {
-  margin-top: 150px;
+  margin-top: 60px;
   margin-bottom: 150px; }
 
 .signup-content {
