@@ -75,7 +75,7 @@
               </li>
               <li class="dropdown"><a href="#" id="custom-link-button"><i class="bi bi-person custom-icon"></i></a>
                 <ul>
-                  <li><a href="./signup.jsp">Sign up</a></li>
+                  <li><a href="./login.jsp">Log in</a></li>
                   <li><a href="./index.jsp">Main page <i class="bi bi-arrow-return-left"></i></a></li>
                 </ul>
               </li>
