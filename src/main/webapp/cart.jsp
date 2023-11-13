@@ -188,25 +188,24 @@
                   </table>
                 </div>
                 <!-- / Shopping cart table -->
-                <br>
                 <div class="d-flex flex-wrap justify-content-between align-items-center pb-4">
-                  <!--<div class="mt-4">
-                    <label class="text-muted font-weight-normal">Promocode</label>
+                  <div class="mt-4">
+                    <div class="text-muted font-weight-normal">Promocode</div>
                     <input type="text" placeholder="ABC" class="form-control">
-                  </div>-->
+                  </div>
                   <div class="d-flex">
-                    <div class="text-right mt-4 mr-5">
-                      <label class="text-muted font-weight-normal m-0">Discount</label>
+                    <div class="text-right mt-4 me-5">
+                      <div class="text-muted font-weight-normal m-0">Discount</div>
                       <div class="text-large"><strong>$20</strong></div>
                     </div>
                     <div class="text-right mt-4">
-                      <label class="text-muted font-weight-normal m-0">Total price</label>
+                      <div class="text-muted font-weight-normal m-0">Total price</div>
                       <div class="text-large"><strong>$1164.65</strong></div>
                     </div>
                   </div>
                 </div>
 
-                <div class="float-right">
+                <div class="float-end">
                   <button type="button" class="btn btn-lg btn-default md-btn-flat mt-2 mr-3">Back to shopping</button>
                   <button type="button" class="btn btn-lg btn-primary mt-2">Checkout</button>
                 </div>
