@@ -29,8 +29,8 @@
   <link rel="stylesheet" href="assets/fonts/material-icon/css/material-design-iconic-font.min.css">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style_ls.css" rel="stylesheet">
-
+  <link href="assets/css/style_cart.css" rel="stylesheet">
+  
   <!-- =======================================================
   * Template Name: Arsha
   * Updated: Sep 18 2023 with Bootstrap v5.3.2
@@ -102,117 +102,125 @@
     </section><!-- End Breadcrumbs -->
 
     <!-- Cart Form -->
-    <div class="cart container px-3 my-5 clearfix">
-        <!-- Shopping cart table -->
-        <div class="card">
-            <div class="card-header">
-                <h2>Shopping Cart</h2>
+    <section class="shopping-cart background">
+	<div class="container">
+            <div class="block-heading">
+		<h2>Shopping Cart</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
             </div>
-            <div class="card-body">
-                <div class="table-responsive">
-                  <table class="table table-bordered m-0">
-                    <thead>
-                      <tr>
-                        <!-- Set columns width -->
-                        <th class="text-center py-3 px-4" style="min-width: 400px;">Product Name &amp; Details</th>
-                        <th class="text-right py-3 px-4" style="width: 100px;">Price</th>
-                        <th class="text-center py-3 px-4" style="width: 120px;">Quantity</th>
-                        <th class="text-right py-3 px-4" style="width: 100px;">Total</th>
-                        <th class="text-center align-middle py-3 px-0" style="width: 40px;"><a href="#" class="shop-tooltip float-none text-light" title="" data-original-title="Clear cart"><i class="ino ion-md-trash"></i></a></th>
-                      </tr>
-                    </thead>
-                    <tbody>
-
-                      <tr>
-                        <td class="p-4">
-                          <div class="media align-items-center d-flex">
-                            <img src="assets/img/favicon.png" class="d-block ui-w-40 ui-bordered mr-4" alt="">
-                            <div class="media-body ps-2">
-                              <a href="#" class="d-block text-dark">Product 1</a>
-                              <small>
-                                <span class="text-muted">Color:</span>
-                                <span class="ui-product-color ui-product-color-sm align-text-bottom" style="background:#e81e2c;"></span> &nbsp;
-                                <span class="text-muted">Size: </span> EU 37 &nbsp;
-                                <span class="text-muted">Ships from: </span> China
-                              </small>
+            <div class="content">
+	 	<div class="row">
+                    <div class="col-12 col-lg-8">
+	 		<div class="items">
+                            <div class="product">
+				<div class="row">
+                                    <div class="col-3">
+					<img class="img-fluid image" src="assets/img/image.jpg">
+                                    </div>
+                                    <div class="col-8">
+					<div class="info">
+                                            <div class="row">
+                                                <div class="col-5 product-name">
+                                                    <div class="product-name">
+							<a href="#">Lorem Ipsum dolor</a>
+							<div class="product-info">
+                                                            <div>Display: <span class="value">5 inch</span></div>
+                                                            <div>RAM: <span class="value">4GB</span></div>
+                                                            <div>Memory: <span class="value">32GB</span></div>
+							</div>
+                                                    </div>
+						</div>
+						<div class="col-4 quantity">
+                                                    <label for="quantity">Quantity:</label>
+                                                    <input id="quantity" type="number" value ="1" class="form-control quantity-input">
+						</div>
+						<div class="col-3 price">
+                                                    <span>$120</span>
+						</div>
+                                            </div>
+                                        </div>
+                                    </div>
+				</div>
                             </div>
-                          </div>
-                        </td>
-                        <td class="text-right font-weight-semibold align-middle p-4">$57.55</td>
-                        <td class="align-middle p-4"><input type="text" class="form-control text-center" value="2"></td>
-                        <td class="text-right font-weight-semibold align-middle p-4">$115.1</td>
-                        <td class="text-center align-middle px-0"><a href="#" class="shop-tooltip close float-none text-danger" title="" data-original-title="Remove">×</a></td>
-                      </tr>
-
-                      <tr>
-                        <td class="p-4">
-                          <div class="media align-items-center d-flex">
-                            <img src="assets/img/favicon.png" class="d-block ui-w-40 ui-bordered mr-4" alt="">
-                            <div class="media-body ps-2">
-                              <a href="#" class="d-block text-dark">Product 2</a>
-                              <small>
-                                <span class="text-muted">Color:</span>
-                                <span class="ui-product-color ui-product-color-sm align-text-bottom" style="background:#000;"></span> &nbsp;
-                                <span class="text-muted">Storage: </span> 32GB &nbsp;
-                                <span class="text-muted">Warranty: </span> Standard - 1 year &nbsp;
-                                <span class="text-muted">Ships from: </span> China
-                              </small>
+                            <div class="product">
+				<div class="row">
+                                    <div class="col-3">
+					<img class="img-fluid image" src="assets/img/image.jpg">
+                                    </div>
+                                    <div class="col-8">
+                                    	<div class="info">
+                                            <div class="row">
+                                                <div class="col-5 product-name">
+                                                    <div class="product-name">
+							<a href="#">Lorem Ipsum dolor</a>
+							<div class="product-info">
+                                                            <div>Display: <span class="value">5 inch</span></div>
+                                                            <div>RAM: <span class="value">4GB</span></div>
+                                                            <div>Memory: <span class="value">32GB</span></div>
+							</div>
+                                                    </div>
+						</div>
+						<div class="col-4 quantity">
+                                                    <label for="quantity">Quantity:</label>
+                                                    <input id="quantity" type="number" value ="1" class="form-control quantity-input">
+						</div>
+						<div class="col-3 price">
+                                                    <span>$120</span>
+						</div>
+                                            </div>
+					</div>
+                                    </div>
+				</div>
                             </div>
-                          </div>
-                        </td>
-                        <td class="text-right font-weight-semibold align-middle p-4">$1049.00</td>
-                        <td class="align-middle p-4"><input type="text" class="form-control text-center" value="1"></td>
-                        <td class="text-right font-weight-semibold align-middle p-4">$1049.00</td>
-                        <td class="text-center align-middle px-0"><a href="#" class="shop-tooltip close float-none text-danger" title="" data-original-title="Remove">×</a></td>
-                      </tr>
-
-                      <tr>
-                        <td class="p-4">
-                          <div class="media align-items-center d-flex">
-                            <img src="assets/img/favicon.png" class="d-block ui-w-40 ui-bordered mr-4" alt="">
-                            <div class="media-body ps-2">
-                              <a href="#" class="d-block text-dark">Product 3</a>
-                              <small>
-                                <span class="text-muted">Ships from: </span> Germany
-                              </small>
+                            <div class="product">
+				<div class="row">
+                                    <div class="col-3">
+					<img class="img-fluid image" src="assets/img/image.jpg">
+                                    </div>
+                                    <div class="col-8">
+					<div class="info">
+                                            <div class="row">
+						<div class="col-5 product-name">
+                                                    <div class="product-name">
+							<a href="#">Lorem Ipsum dolor</a>
+                                                        <div class="product-info">
+                                                            <div>Display: <span class="value">5 inch</span></div>
+                                                            <div>RAM: <span class="value">4GB</span></div>
+                                                            <div>Memory: <span class="value">32GB</span></div>
+                                                        </div>
+                                                    </div>
+						</div>
+						<div class="col-4 quantity">
+                                                    <label for="quantity">Quantity:</label>
+                                                    <input id="quantity" type="number" value ="1" class="form-control quantity-input">
+						</div>
+						<div class="col-3 price">
+                                                    <span>$120</span>
+						</div>
+                                            </div>
+					</div>
+                                    </div>
+				</div>
                             </div>
-                          </div>
-                        </td>
-                        <td class="text-right font-weight-semibold align-middle p-4">$20.55</td>
-                        <td class="align-middle p-4"><input type="text" class="form-control text-center" value="1"></td>
-                        <td class="text-right font-weight-semibold align-middle p-4">$20.55</td>
-                        <td class="text-center align-middle px-0"><a href="#" class="shop-tooltip close float-none text-danger" title="" data-original-title="Remove">×</a></td>
-                      </tr>
-
-                    </tbody>
-                  </table>
-                </div>
-                <!-- / Shopping cart table -->
-                <div class="d-flex flex-wrap justify-content-between align-items-center pb-4">
-                  <div class="mt-4">
-                    <div class="text-muted font-weight-normal">Promocode</div>
-                    <input type="text" placeholder="ABC" class="form-control">
-                  </div>
-                  <div class="d-flex">
-                    <div class="text-right mt-4 me-5">
-                      <div class="text-muted font-weight-normal m-0">Discount</div>
-                      <div class="text-large"><strong>$20</strong></div>
+			</div>
                     </div>
-                    <div class="text-right mt-4">
-                      <div class="text-muted font-weight-normal m-0">Total price</div>
-                      <div class="text-large"><strong>$1164.65</strong></div>
+                    <div class="col-12 col-lg-4">
+                        <div class="summary">
+                            <h3>Summary</h3>
+                            <div class="summary-item"><span class="text">Subtotal</span><span class="price">$360</span></div>
+                            <div class="summary-item"><span class="text">Discount</span><span class="price">$0</span></div>
+                            <div class="summary-item"><span class="text">Shipping</span><span class="price">$0</span></div>
+                            <div class="summary-item"><span class="text">Total</span><span class="price">$360</span></div>
+                            <button type="button" class="btn btn-primary btn-lg w-100">Checkout</button>
+			</div>
                     </div>
-                  </div>
-                </div>
-
-                <div class="float-end">
-                  <button type="button" class="btn btn-lg btn-default md-btn-flat mt-2 mr-3">Back to shopping</button>
-                  <button type="button" class="btn btn-lg btn-primary mt-2">Checkout</button>
-                </div>
-
+		</div> 
             </div>
-        </div>
-    </div>
+	</div>
+    </section>
+
+
+
 
   </main><!-- End #main -->
 
@@ -223,7 +231,7 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-3 col-md-6 footer-contact">
+          <div class="col-lg-3 col-6 footer-contact">
             <h3>Arsha</h3>
             <p>
               A108 Adam Street <br>
@@ -234,7 +242,7 @@
             </p>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
+          <div class="col-lg-3 col-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
@@ -245,7 +253,7 @@
             </ul>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
+          <div class="col-lg-3 col-6 footer-links">
             <h4>Our Services</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
@@ -256,7 +264,7 @@
             </ul>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
+          <div class="col-lg-3 col-6 footer-links">
             <h4>Our Social Networks</h4>
             <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
             <div class="social-links mt-3">
@@ -288,7 +296,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
+  
 </body>
 
 </html>
