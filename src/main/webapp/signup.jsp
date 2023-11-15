@@ -24,9 +24,12 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  
+  <!-- Font Icon -->
+  <link rel="stylesheet" href="assets/fonts/material-icon/css/material-design-iconic-font.min.css">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/style_ls.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Arsha
@@ -39,48 +42,51 @@
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top header-inner-pages">
-    <div class="container d-flex align-items-center">
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top header-inner-pages">
+        <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="index.html">Arsha</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+          <h1 class="logo me-auto"><a href="index.html">CONFIRM</a></h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto " href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link   scrollto" href="#portfolio">Portfolio</a></li>
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+          <nav id="navbar" class="navbar">
             <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+              <li><a class="nav-link scrollto " href="./index.jsp">Home</a></li>
+              <li><a class="nav-link scrollto" href="./search.jsp">Search</a></li>
+              <li><a class="nav-link scrollto" href="./index.jsp#services">Services</a></li>
+              <li><a class="nav-link scrollto" href="./index.jsp#product">Products</a></li>
+              <li><a class="nav-link scrollto" href="./index.jsp#feedback">Feedback</a></li>
+              <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
                 <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
+                  <li><a href="#">Drop Down 1</a></li>
+                  <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="#">Deep Drop Down 1</a></li>
+                      <li><a href="#">Deep Drop Down 2</a></li>
+                      <li><a href="#">Deep Drop Down 3</a></li>
+                      <li><a href="#">Deep Drop Down 4</a></li>
+                      <li><a href="#">Deep Drop Down 5</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Drop Down 3</a></li>
+                  <li><a href="#">Drop Down 4</a></li>
                 </ul>
               </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
+              <li class="dropdown"><a href="#" id="custom-link-button"><i class="bi bi-person custom-icon"></i></a>
+                <ul>
+                  <li><a href="./login.jsp">Log in</a></li>
+                  <li><a href="./index.jsp">Main page <i class="bi bi-arrow-return-left"></i></a></li>
+                </ul>
+              </li>
             </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+            <i class="bi bi-list mobile-nav-toggle"></i>
+          </nav><!-- .navbar -->
 
-    </div>
-  </header><!-- End Header -->
+        </div>
+    </header><!-- End Header -->
 
-  <main id="main">
+    <main id="main">
 
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
@@ -88,20 +94,52 @@
 
         <ol>
           <li><a href="index.html">Home</a></li>
-          <li>Log in Page</li>
+          <li>Sign up Page</li>
         </ol>
-        <h2>Log in Page</h2>
+        <h2>Sign up Page</h2>
 
       </div>
     </section><!-- End Breadcrumbs -->
 
-    <section class="inner-page">
-      <div class="container">
-        <p>
-          Example inner page template
-        </p>
-      </div>
-    </section>
+    <!-- Sign up form -->
+        <section class="signup">
+            <div class="container-signup">
+                <div class="signup-content">
+                    <div class="signup-form">
+                        <h2 class="form-title">Sign up</h2>
+                        <form method="POST" class="register-form" id="register-form">
+                            <div class="form-group">
+                                <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <input type="text" name="name" id="name" placeholder="Your Name"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="email"><i class="zmdi zmdi-email"></i></label>
+                                <input type="email" name="email" id="email" placeholder="Your Email"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="pass"><i class="zmdi zmdi-lock"></i></label>
+                                <input type="password" name="pass" id="pass" placeholder="Password"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="re-pass"><i class="zmdi zmdi-lock-outline"></i></label>
+                                <input type="password" name="re_pass" id="re_pass" placeholder="Repeat your password"/>
+                            </div>
+                            <div class="form-group">
+                                <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
+                                <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree all statements in  <a href="#" class="term-service a-signup">Terms of service</a></label>
+                            </div>
+                            <div class="form-group form-button">
+                                <input type="submit" name="signup" id="signup" class="form-submit" value="Register"/>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="signup-image">
+                        <figure><img src="assets/img/signup-image.jpg" alt="sing up image"></figure>
+                        <a href="./login.jsp" class="signup-image-link a-signup">Already have an account?</a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
   </main><!-- End #main -->
 
