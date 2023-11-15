@@ -93,7 +93,7 @@
       <div class="container">
 
         <ol>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="index.jsp">Home</a></li>
           <li>Log in Page</li>
         </ol>
         <h2>Log in Page</h2>
