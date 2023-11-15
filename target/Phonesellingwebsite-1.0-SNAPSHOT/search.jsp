@@ -26,7 +26,7 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/style_search.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Arsha
@@ -50,32 +50,32 @@
           <nav id="navbar" class="navbar">
             <ul>
               <li><a class="nav-link scrollto " href="./index.jsp">Home</a></li>
-              <li><a class="nav-link scrollto" href="./search.jsp">Search</a></li>
-              <li><a class="nav-link scrollto" href="./index.jsp#services">Services</a></li>
-              <li><a class="nav-link scrollto" href="./index.jsp#product">Products</a></li>
-              <li><a class="nav-link scrollto" href="./index.jsp#feedback">Feedback</a></li>
-              <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-                <ul>
-                  <li><a href="#">Drop Down 1</a></li>
-                  <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                  <li><a class="nav-link scrollto" href="./search.jsp">Search</a></li>
+                  <li><a class="nav-link scrollto" href="./index.jsp#services">Services</a></li>
+                  <li><a class="nav-link scrollto" href="./index.jsp#product">Products</a></li>
+                  <li><a class="nav-link scrollto" href="./index.jsp#feedback">Feedback</a></li>
+                  <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
-                      <li><a href="#">Deep Drop Down 1</a></li>
-                      <li><a href="#">Deep Drop Down 2</a></li>
-                      <li><a href="#">Deep Drop Down 3</a></li>
-                      <li><a href="#">Deep Drop Down 4</a></li>
-                      <li><a href="#">Deep Drop Down 5</a></li>
+                      <li><a href="#">Drop Down 1</a></li>
+                      <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                        <ul>
+                          <li><a href="#">Deep Drop Down 1</a></li>
+                          <li><a href="#">Deep Drop Down 2</a></li>
+                          <li><a href="#">Deep Drop Down 3</a></li>
+                          <li><a href="#">Deep Drop Down 4</a></li>
+                          <li><a href="#">Deep Drop Down 5</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#">Drop Down 3</a></li>
+                      <li><a href="#">Drop Down 4</a></li>
                     </ul>
                   </li>
-                  <li><a href="#">Drop Down 3</a></li>
-                  <li><a href="#">Drop Down 4</a></li>
-                </ul>
-              </li>
-              <li class="dropdown"><a href="#" id="custom-link-button"><i class="bi bi-person custom-icon"></i></a>
-                <ul>
-                  <li><a href="./signup.jsp">Sign up</a></li>
-                  <li><a href="./index.jsp">Main page <i class="bi bi-arrow-return-left"></i></a></li>
-                </ul>
-              </li>
+                  <li class="dropdown"><a href="#" id="custom-link-button"><i class="bi bi-person custom-icon"></i></a>
+                    <ul>
+                      <li><a href="./login.jsp">Log in</a></li>
+                      <li><a href="./index.jsp">Main page <i class="bi bi-arrow-return-left"></i></a></li>
+                    </ul>
+                  </li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
           </nav><!-- .navbar -->
@@ -90,7 +90,7 @@
       <div class="container">
 
         <ol>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="index.jsp">Home</a></li>
           <li>Search Page</li>
         </ol>
         <h2>Search Page</h2>
@@ -98,12 +98,248 @@
       </div>
     </section><!-- End Breadcrumbs -->
 
-    <section class="inner-page">
-      <div class="container">
-        <p>
-          Example inner page template
-        </p>
-      </div>
+    <section class="search">
+        <div class="grid-container">
+            <div class="grid-card">
+                <div class="card-sort">
+                    <div type="subtitle" class="card-sub">Brands</div>
+                    <div direction="row" class="card-brand">
+                        <div style="min-width: 100%;">
+                            <label class="check-box label-display">
+                                <div class="label-button">
+                                    <input type="checkbox" class="">
+                                </div>
+                                <div type="body" class="checkbox-label" style="flex: 1 1 0%;">
+                                    <span>
+                                        <span style="display: flex;">
+                                            <div>Samsung</div>
+                                        </span>
+                                        <span style="position: absolute; inset: 0px auto auto 0px; visibility: hidden; z-index: 999; transform: translate3d(137px, 392px, 0px);" data-popper-reference-hidden="false" data-popper-escaped="true" data-popper-placement="right">
+                                            <span class="arrow-left" data-placement="auto" style="position: absolute; transform: translate3d(0px, 15px, 0px); top: 0px;"></span>
+                                            <div type="body" color="white" class="css-2h64mz">Samsung</div>
+                                        </span>
+                                    </span>
+                                </div>
+                            </label>
+                        </div>
+                        <div style="min-width: 100%;">
+                            <label class="check-box label-display">
+                                <div class="label-button">
+                                    <input type="checkbox" class="">
+                                </div>
+                                <div type="body" class="checkbox-label" style="flex: 1 1 0%;">
+                                    <span>
+                                        <span style="display: flex;">
+                                            <div>Iphone</div>
+                                        </span>
+                                        <span style="position: absolute; inset: 0px auto auto 0px; visibility: hidden; z-index: 999; transform: translate3d(137px, 392px, 0px);" data-popper-reference-hidden="false" data-popper-escaped="true" data-popper-placement="right">
+                                            <span class="arrow-left" data-placement="auto" style="position: absolute; transform: translate3d(0px, 15px, 0px); top: 0px;"></span>
+                                            <div type="body" color="white" class="css-2h64mz">Iphone</div>
+                                        </span>
+                                    </span>
+                                </div>
+                            </label>
+                        </div>
+                        <div style="min-width: 100%;">
+                            <label class="check-box label-display">
+                                <div class="label-button">
+                                    <input type="checkbox" class="">
+                                </div>
+                                <div type="body" class="checkbox-label" style="flex: 1 1 0%;">
+                                    <span>
+                                        <span style="display: flex;">
+                                            <div>Xiaomi</div>
+                                        </span>
+                                        <span style="position: absolute; inset: 0px auto auto 0px; visibility: hidden; z-index: 999; transform: translate3d(137px, 392px, 0px);" data-popper-reference-hidden="false" data-popper-escaped="true" data-popper-placement="right">
+                                            <span class="arrow-left" data-placement="auto" style="position: absolute; transform: translate3d(0px, 15px, 0px); top: 0px;"></span>
+                                            <div type="body" color="white" class="css-2h64mz">Xiaomi</div>
+                                        </span>
+                                    </span>
+                                </div>
+                            </label>
+                        </div>
+                        <div style="min-width: 100%;">
+                            <label class="check-box label-display">
+                                <div class="label-button">
+                                    <input type="checkbox" class="">
+                                </div>
+                                <div type="body" class="checkbox-label" style="flex: 1 1 0%;">
+                                    <span>
+                                        <span style="display: flex;">
+                                            <div>Huawei</div>
+                                        </span>
+                                        <span style="position: absolute; inset: 0px auto auto 0px; visibility: hidden; z-index: 999; transform: translate3d(137px, 392px, 0px);" data-popper-reference-hidden="false" data-popper-escaped="true" data-popper-placement="right">
+                                            <span class="arrow-left" data-placement="auto" style="position: absolute; transform: translate3d(0px, 15px, 0px); top: 0px;"></span>
+                                            <div type="body" color="white" class="css-2h64mz">Huawei</div>
+                                        </span>
+                                    </span>
+                                </div>
+                            </label>
+                        </div>
+                        <div style="min-width: 100%;">
+                            <label class="check-box label-display">
+                                <div class="label-button">
+                                    <input type="checkbox" class="">
+                                </div>
+                                <div type="body" class="checkbox-label" style="flex: 1 1 0%;">
+                                    <span>
+                                        <span style="display: flex;">
+                                            <div>Nokia</div>
+                                        </span>
+                                        <span style="position: absolute; inset: 0px auto auto 0px; visibility: hidden; z-index: 999; transform: translate3d(137px, 392px, 0px);" data-popper-reference-hidden="false" data-popper-escaped="true" data-popper-placement="right">
+                                            <span class="arrow-left" data-placement="auto" style="position: absolute; transform: translate3d(0px, 15px, 0px); top: 0px;"></span>
+                                            <div type="body" color="white" class="css-2h64mz">Nokia</div>
+                                        </span>
+                                    </span>
+                                </div>
+                            </label>
+                        </div>
+                        <div style="min-width: 100%;">
+                            <label class="check-box label-display">
+                                <div class="label-button">
+                                    <input type="checkbox" class="">
+                                </div>
+                                <div type="body" class="checkbox-label" style="flex: 1 1 0%;">
+                                    <span>
+                                        <span style="display: flex;">
+                                            <div>Vivo</div>
+                                        </span>
+                                        <span style="position: absolute; inset: 0px auto auto 0px; visibility: hidden; z-index: 999; transform: translate3d(137px, 392px, 0px);" data-popper-reference-hidden="false" data-popper-escaped="true" data-popper-placement="right">
+                                            <span class="arrow-left" data-placement="auto" style="position: absolute; transform: translate3d(0px, 15px, 0px); top: 0px;"></span>
+                                            <div type="body" color="white" class="css-2h64mz">Vivo</div>
+                                        </span>
+                                    </span>
+                                </div>
+                            </label>
+                        </div>
+                        
+                    </div>
+                </div>
+                <hr>
+                <div class="card-sort">
+                    <div type="subtitle" class="card-sub">Brands</div>
+                    <div direction="row" class="card-brand">
+                        <div style="min-width: 100%;">
+                            <label class="check-box label-display">
+                                <div class="label-button">
+                                    <input type="checkbox" class="">
+                                </div>
+                                <div type="body" class="checkbox-label" style="flex: 1 1 0%;">
+                                    <span>
+                                        <span style="display: flex;">
+                                            <div>Samsung</div>
+                                        </span>
+                                        <span style="position: absolute; inset: 0px auto auto 0px; visibility: hidden; z-index: 999; transform: translate3d(137px, 392px, 0px);" data-popper-reference-hidden="false" data-popper-escaped="true" data-popper-placement="right">
+                                            <span class="arrow-left" data-placement="auto" style="position: absolute; transform: translate3d(0px, 15px, 0px); top: 0px;"></span>
+                                            <div type="body" color="white" class="css-2h64mz">Samsung</div>
+                                        </span>
+                                    </span>
+                                </div>
+                            </label>
+                        </div>
+                        <div style="min-width: 100%;">
+                            <label class="check-box label-display">
+                                <div class="label-button">
+                                    <input type="checkbox" class="">
+                                </div>
+                                <div type="body" class="checkbox-label" style="flex: 1 1 0%;">
+                                    <span>
+                                        <span style="display: flex;">
+                                            <div>Iphone</div>
+                                        </span>
+                                        <span style="position: absolute; inset: 0px auto auto 0px; visibility: hidden; z-index: 999; transform: translate3d(137px, 392px, 0px);" data-popper-reference-hidden="false" data-popper-escaped="true" data-popper-placement="right">
+                                            <span class="arrow-left" data-placement="auto" style="position: absolute; transform: translate3d(0px, 15px, 0px); top: 0px;"></span>
+                                            <div type="body" color="white" class="css-2h64mz">Iphone</div>
+                                        </span>
+                                    </span>
+                                </div>
+                            </label>
+                        </div>
+                        <div style="min-width: 100%;">
+                            <label class="check-box label-display">
+                                <div class="label-button">
+                                    <input type="checkbox" class="">
+                                </div>
+                                <div type="body" class="checkbox-label" style="flex: 1 1 0%;">
+                                    <span>
+                                        <span style="display: flex;">
+                                            <div>Xiaomi</div>
+                                        </span>
+                                        <span style="position: absolute; inset: 0px auto auto 0px; visibility: hidden; z-index: 999; transform: translate3d(137px, 392px, 0px);" data-popper-reference-hidden="false" data-popper-escaped="true" data-popper-placement="right">
+                                            <span class="arrow-left" data-placement="auto" style="position: absolute; transform: translate3d(0px, 15px, 0px); top: 0px;"></span>
+                                            <div type="body" color="white" class="css-2h64mz">Xiaomi</div>
+                                        </span>
+                                    </span>
+                                </div>
+                            </label>
+                        </div>
+                        <div style="min-width: 100%;">
+                            <label class="check-box label-display">
+                                <div class="label-button">
+                                    <input type="checkbox" class="">
+                                </div>
+                                <div type="body" class="checkbox-label" style="flex: 1 1 0%;">
+                                    <span>
+                                        <span style="display: flex;">
+                                            <div>Huawei</div>
+                                        </span>
+                                        <span style="position: absolute; inset: 0px auto auto 0px; visibility: hidden; z-index: 999; transform: translate3d(137px, 392px, 0px);" data-popper-reference-hidden="false" data-popper-escaped="true" data-popper-placement="right">
+                                            <span class="arrow-left" data-placement="auto" style="position: absolute; transform: translate3d(0px, 15px, 0px); top: 0px;"></span>
+                                            <div type="body" color="white" class="css-2h64mz">Huawei</div>
+                                        </span>
+                                    </span>
+                                </div>
+                            </label>
+                        </div>
+                        <div style="min-width: 100%;">
+                            <label class="check-box label-display">
+                                <div class="label-button">
+                                    <input type="checkbox" class="">
+                                </div>
+                                <div type="body" class="checkbox-label" style="flex: 1 1 0%;">
+                                    <span>
+                                        <span style="display: flex;">
+                                            <div>Nokia</div>
+                                        </span>
+                                        <span style="position: absolute; inset: 0px auto auto 0px; visibility: hidden; z-index: 999; transform: translate3d(137px, 392px, 0px);" data-popper-reference-hidden="false" data-popper-escaped="true" data-popper-placement="right">
+                                            <span class="arrow-left" data-placement="auto" style="position: absolute; transform: translate3d(0px, 15px, 0px); top: 0px;"></span>
+                                            <div type="body" color="white" class="css-2h64mz">Nokia</div>
+                                        </span>
+                                    </span>
+                                </div>
+                            </label>
+                        </div>
+                        <div style="min-width: 100%;">
+                            <label class="check-box label-display">
+                                <div class="label-button">
+                                    <input type="checkbox" class="">
+                                </div>
+                                <div type="body" class="checkbox-label" style="flex: 1 1 0%;">
+                                    <span>
+                                        <span style="display: flex;">
+                                            <div>Vivo</div>
+                                        </span>
+                                        <span style="position: absolute; inset: 0px auto auto 0px; visibility: hidden; z-index: 999; transform: translate3d(137px, 392px, 0px);" data-popper-reference-hidden="false" data-popper-escaped="true" data-popper-placement="right">
+                                            <span class="arrow-left" data-placement="auto" style="position: absolute; transform: translate3d(0px, 15px, 0px); top: 0px;"></span>
+                                            <div type="body" color="white" class="css-2h64mz">Vivo</div>
+                                        </span>
+                                    </span>
+                                </div>
+                            </label>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="grid-card">
+                kljdfhguiafyhgiuasyodifhjasdiofjhlkdsjflakdsjhfkla sdfjkadsnvkascnvkjashga fshdlkfhjaopiesrlskldn vnajkbrgjkrhfasdnvmascvkj ashskusoeifsldkfhkdsjfffffffffffff fffffffffffffffffffffff fffffffffffffffffff fffffffffffff fffffffffffffffffffffffff
+            </div>
+        </div>
     </section>
 
   </main><!-- End #main -->
