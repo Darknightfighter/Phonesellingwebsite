@@ -90,7 +90,7 @@
       <div class="container">
 
         <ol>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="index.jsp">Home</a></li>
           <li>Profile Page</li>
         </ol>
         <h2>Profile Page</h2>
