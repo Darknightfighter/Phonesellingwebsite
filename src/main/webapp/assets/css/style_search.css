@@ -406,84 +406,191 @@ h6 {
 # Search
 --------------------------------------------------------------*/
 
-.search {
+.search-bar {
+    margin: 50px 100px 10px;
+    display: flex;
+    background-color: white;
+    border-radius: 2rem;
+    transition: 0.3s;
+}
+
+.search-bar:hover {
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+}
+
+body{
     background-color: #f6f6f6;
 }
 
+.bar {
+    padding: 40px 40px 40px 50px;
+}
+
+.form-inputs{
+    position:relative;
+    width: 1000px;
+}
+
+.form-inputs .form-control{
+    height:45px; 
+}
+
+.form-inputs .form-control:focus{
+    box-shadow:none;
+    border:1px solid #000;
+}
+
+.form-inputs i{
+    position:absolute;
+    right:10px;
+    top:15px;
+}
+
+.cart {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.shop-bag{
+    background-color: #47b2e4;
+    color: #fff;
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.shop-bag:hover {
+    background: #209dd8;
+}
+
+.search-element {
+    padding: 5px 100px 50px;
+}
+
 .grid-container {
-    padding: 100px 180px;
+    padding: 10px;
     display: grid; 
-    grid-template-columns: 0.5fr 3.5fr;
-    column-gap: 10px;
-    row-gap: 10px;
+    grid-template-columns: .5fr .5fr .5fr .5fr;
+    column-gap: 20px;
+    row-gap: 20px;
 }
 
 .grid-card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: white;
+    border-radius: 2rem;
     transition: 0.3s;
-    align-items: center;
-    background-color: #fff;
 }
 
 .grid-card:hover {
     box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
 }
 
-.grid-card .card-sort {
-    padding: 10px;
-}
-
-.card-sub {
-    font-weight: 500;    
-}
-
-.card-brand {
-    border-style: none;
-    border-width: 1px;
-    border-color: unset;
-    opacity: 1;
+.grid-img .link-img {
     display: flex;
-    flex-flow: wrap;
-    gap: 0rem;
-    -webkit-box-pack: start;
-    justify-content: flex-start;
-    -webkit-box-align: baseline;
-    align-items: baseline;
+    justify-content: center;
+    align-items: center;
 }
 
-.label-display {
+.grid-img .link-img img {
+    padding: 20px 15px 10px;
+    width: 80%;
+    border-radius: 2rem;
+}
+
+.img-zoom {
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+}
+
+.img-zoom:hover {
+    transform: scale(1.1);
+}
+
+.grid-info {
+    padding: 5px 15px;
+}
+
+.grid-info .title {
+    font-weight: bold !important;
+    font-size: 20px;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.grid-info .info {
+    padding: 10px 0;
+    font-size: 15px;
+    color: gray;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-button {
     display: flex;
-    gap: 5px;
+    padding: inherit;
 }
 
-.label-button {
+.button-list {
+    display: flex;
+    padding-left: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-list li {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-list .btn-bn {
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
     display: inline-block;
-    position: relative;
-    width: 16px;
-    height: 16px;
+    padding: 10px 20px 10px;
+    margin-right: 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #fff;
+    background: #47b2e4;
 }
 
-.card-seperate {
-    border-style: none;
-    border-width: 1px;
-    border-color: unset;
-    opacity: 1;
-    --divider-gap: 12px;
-    display: flex;
-    padding-top: var(--divider-gap);
-    padding-bottom: var(--divider-gap);
+.button-list .btn-bn:hover {
+    background: #209dd8;
 }
 
-.seperate-line {
-    --divider-border-style: solid;
-    --divider-color: #E4E5F0;
-    --divider-border-width: 1px;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-    border-top: var(--divider-border-width) var(--divider-border-style) var(--divider-color);
+.button-list .btn-atc {
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 20px 10px;
+    margin-left: 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #47b2e4;
+    background: #fff;
+    border: 2px solid #47b2e4;
+}
+
+.button-list .btn-atc:hover {
+    border-color: #209dd8;
+    color: #209dd8;
 }
 
 /*--------------------------------------------------------------

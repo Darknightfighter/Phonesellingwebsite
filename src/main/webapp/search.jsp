@@ -98,249 +98,199 @@
       </div>
     </section><!-- End Breadcrumbs -->
 
+    <!-- ======= Search ======= -->
     <section class="search">
-        <div class="grid-container">
-            <div class="grid-card">
-                <div class="card-sort">
-                    <div type="subtitle" class="card-sub">Brands</div>
-                    <div direction="row" class="card-brand">
-                        <div style="min-width: 100%;">
-                            <label class="check-box label-display">
-                                <div class="label-button">
-                                    <input type="checkbox" class="">
-                                </div>
-                                <div type="body" class="checkbox-label" style="flex: 1 1 0%;">
-                                    <span>
-                                        <span style="display: flex;">
-                                            <div>Samsung</div>
-                                        </span>
-                                        <span style="position: absolute; inset: 0px auto auto 0px; visibility: hidden; z-index: 999; transform: translate3d(137px, 392px, 0px);" data-popper-reference-hidden="false" data-popper-escaped="true" data-popper-placement="right">
-                                            <span class="arrow-left" data-placement="auto" style="position: absolute; transform: translate3d(0px, 15px, 0px); top: 0px;"></span>
-                                            <div type="body" color="white" class="css-2h64mz">Samsung</div>
-                                        </span>
-                                    </span>
-                                </div>
-                            </label>
-                        </div>
-                        <div style="min-width: 100%;">
-                            <label class="check-box label-display">
-                                <div class="label-button">
-                                    <input type="checkbox" class="">
-                                </div>
-                                <div type="body" class="checkbox-label" style="flex: 1 1 0%;">
-                                    <span>
-                                        <span style="display: flex;">
-                                            <div>Iphone</div>
-                                        </span>
-                                        <span style="position: absolute; inset: 0px auto auto 0px; visibility: hidden; z-index: 999; transform: translate3d(137px, 392px, 0px);" data-popper-reference-hidden="false" data-popper-escaped="true" data-popper-placement="right">
-                                            <span class="arrow-left" data-placement="auto" style="position: absolute; transform: translate3d(0px, 15px, 0px); top: 0px;"></span>
-                                            <div type="body" color="white" class="css-2h64mz">Iphone</div>
-                                        </span>
-                                    </span>
-                                </div>
-                            </label>
-                        </div>
-                        <div style="min-width: 100%;">
-                            <label class="check-box label-display">
-                                <div class="label-button">
-                                    <input type="checkbox" class="">
-                                </div>
-                                <div type="body" class="checkbox-label" style="flex: 1 1 0%;">
-                                    <span>
-                                        <span style="display: flex;">
-                                            <div>Xiaomi</div>
-                                        </span>
-                                        <span style="position: absolute; inset: 0px auto auto 0px; visibility: hidden; z-index: 999; transform: translate3d(137px, 392px, 0px);" data-popper-reference-hidden="false" data-popper-escaped="true" data-popper-placement="right">
-                                            <span class="arrow-left" data-placement="auto" style="position: absolute; transform: translate3d(0px, 15px, 0px); top: 0px;"></span>
-                                            <div type="body" color="white" class="css-2h64mz">Xiaomi</div>
-                                        </span>
-                                    </span>
-                                </div>
-                            </label>
-                        </div>
-                        <div style="min-width: 100%;">
-                            <label class="check-box label-display">
-                                <div class="label-button">
-                                    <input type="checkbox" class="">
-                                </div>
-                                <div type="body" class="checkbox-label" style="flex: 1 1 0%;">
-                                    <span>
-                                        <span style="display: flex;">
-                                            <div>Huawei</div>
-                                        </span>
-                                        <span style="position: absolute; inset: 0px auto auto 0px; visibility: hidden; z-index: 999; transform: translate3d(137px, 392px, 0px);" data-popper-reference-hidden="false" data-popper-escaped="true" data-popper-placement="right">
-                                            <span class="arrow-left" data-placement="auto" style="position: absolute; transform: translate3d(0px, 15px, 0px); top: 0px;"></span>
-                                            <div type="body" color="white" class="css-2h64mz">Huawei</div>
-                                        </span>
-                                    </span>
-                                </div>
-                            </label>
-                        </div>
-                        <div style="min-width: 100%;">
-                            <label class="check-box label-display">
-                                <div class="label-button">
-                                    <input type="checkbox" class="">
-                                </div>
-                                <div type="body" class="checkbox-label" style="flex: 1 1 0%;">
-                                    <span>
-                                        <span style="display: flex;">
-                                            <div>Nokia</div>
-                                        </span>
-                                        <span style="position: absolute; inset: 0px auto auto 0px; visibility: hidden; z-index: 999; transform: translate3d(137px, 392px, 0px);" data-popper-reference-hidden="false" data-popper-escaped="true" data-popper-placement="right">
-                                            <span class="arrow-left" data-placement="auto" style="position: absolute; transform: translate3d(0px, 15px, 0px); top: 0px;"></span>
-                                            <div type="body" color="white" class="css-2h64mz">Nokia</div>
-                                        </span>
-                                    </span>
-                                </div>
-                            </label>
-                        </div>
-                        <div style="min-width: 100%;">
-                            <label class="check-box label-display">
-                                <div class="label-button">
-                                    <input type="checkbox" class="">
-                                </div>
-                                <div type="body" class="checkbox-label" style="flex: 1 1 0%;">
-                                    <span>
-                                        <span style="display: flex;">
-                                            <div>Vivo</div>
-                                        </span>
-                                        <span style="position: absolute; inset: 0px auto auto 0px; visibility: hidden; z-index: 999; transform: translate3d(137px, 392px, 0px);" data-popper-reference-hidden="false" data-popper-escaped="true" data-popper-placement="right">
-                                            <span class="arrow-left" data-placement="auto" style="position: absolute; transform: translate3d(0px, 15px, 0px); top: 0px;"></span>
-                                            <div type="body" color="white" class="css-2h64mz">Vivo</div>
-                                        </span>
-                                    </span>
-                                </div>
-                            </label>
-                        </div>
-                        
-                    </div>
+        <div class="search-bar">
+            <div class="bar">
+                <div class="d-flex form-inputs">
+                    <input class="form-control" type="text" placeholder="Search any product...">
+                    <i class="bx bx-search"></i>
                 </div>
-                <hr>
-                <div class="card-sort">
-                    <div type="subtitle" class="card-sub">Brands</div>
-                    <div direction="row" class="card-brand">
-                        <div style="min-width: 100%;">
-                            <label class="check-box label-display">
-                                <div class="label-button">
-                                    <input type="checkbox" class="">
-                                </div>
-                                <div type="body" class="checkbox-label" style="flex: 1 1 0%;">
-                                    <span>
-                                        <span style="display: flex;">
-                                            <div>Samsung</div>
-                                        </span>
-                                        <span style="position: absolute; inset: 0px auto auto 0px; visibility: hidden; z-index: 999; transform: translate3d(137px, 392px, 0px);" data-popper-reference-hidden="false" data-popper-escaped="true" data-popper-placement="right">
-                                            <span class="arrow-left" data-placement="auto" style="position: absolute; transform: translate3d(0px, 15px, 0px); top: 0px;"></span>
-                                            <div type="body" color="white" class="css-2h64mz">Samsung</div>
-                                        </span>
-                                    </span>
-                                </div>
-                            </label>
-                        </div>
-                        <div style="min-width: 100%;">
-                            <label class="check-box label-display">
-                                <div class="label-button">
-                                    <input type="checkbox" class="">
-                                </div>
-                                <div type="body" class="checkbox-label" style="flex: 1 1 0%;">
-                                    <span>
-                                        <span style="display: flex;">
-                                            <div>Iphone</div>
-                                        </span>
-                                        <span style="position: absolute; inset: 0px auto auto 0px; visibility: hidden; z-index: 999; transform: translate3d(137px, 392px, 0px);" data-popper-reference-hidden="false" data-popper-escaped="true" data-popper-placement="right">
-                                            <span class="arrow-left" data-placement="auto" style="position: absolute; transform: translate3d(0px, 15px, 0px); top: 0px;"></span>
-                                            <div type="body" color="white" class="css-2h64mz">Iphone</div>
-                                        </span>
-                                    </span>
-                                </div>
-                            </label>
-                        </div>
-                        <div style="min-width: 100%;">
-                            <label class="check-box label-display">
-                                <div class="label-button">
-                                    <input type="checkbox" class="">
-                                </div>
-                                <div type="body" class="checkbox-label" style="flex: 1 1 0%;">
-                                    <span>
-                                        <span style="display: flex;">
-                                            <div>Xiaomi</div>
-                                        </span>
-                                        <span style="position: absolute; inset: 0px auto auto 0px; visibility: hidden; z-index: 999; transform: translate3d(137px, 392px, 0px);" data-popper-reference-hidden="false" data-popper-escaped="true" data-popper-placement="right">
-                                            <span class="arrow-left" data-placement="auto" style="position: absolute; transform: translate3d(0px, 15px, 0px); top: 0px;"></span>
-                                            <div type="body" color="white" class="css-2h64mz">Xiaomi</div>
-                                        </span>
-                                    </span>
-                                </div>
-                            </label>
-                        </div>
-                        <div style="min-width: 100%;">
-                            <label class="check-box label-display">
-                                <div class="label-button">
-                                    <input type="checkbox" class="">
-                                </div>
-                                <div type="body" class="checkbox-label" style="flex: 1 1 0%;">
-                                    <span>
-                                        <span style="display: flex;">
-                                            <div>Huawei</div>
-                                        </span>
-                                        <span style="position: absolute; inset: 0px auto auto 0px; visibility: hidden; z-index: 999; transform: translate3d(137px, 392px, 0px);" data-popper-reference-hidden="false" data-popper-escaped="true" data-popper-placement="right">
-                                            <span class="arrow-left" data-placement="auto" style="position: absolute; transform: translate3d(0px, 15px, 0px); top: 0px;"></span>
-                                            <div type="body" color="white" class="css-2h64mz">Huawei</div>
-                                        </span>
-                                    </span>
-                                </div>
-                            </label>
-                        </div>
-                        <div style="min-width: 100%;">
-                            <label class="check-box label-display">
-                                <div class="label-button">
-                                    <input type="checkbox" class="">
-                                </div>
-                                <div type="body" class="checkbox-label" style="flex: 1 1 0%;">
-                                    <span>
-                                        <span style="display: flex;">
-                                            <div>Nokia</div>
-                                        </span>
-                                        <span style="position: absolute; inset: 0px auto auto 0px; visibility: hidden; z-index: 999; transform: translate3d(137px, 392px, 0px);" data-popper-reference-hidden="false" data-popper-escaped="true" data-popper-placement="right">
-                                            <span class="arrow-left" data-placement="auto" style="position: absolute; transform: translate3d(0px, 15px, 0px); top: 0px;"></span>
-                                            <div type="body" color="white" class="css-2h64mz">Nokia</div>
-                                        </span>
-                                    </span>
-                                </div>
-                            </label>
-                        </div>
-                        <div style="min-width: 100%;">
-                            <label class="check-box label-display">
-                                <div class="label-button">
-                                    <input type="checkbox" class="">
-                                </div>
-                                <div type="body" class="checkbox-label" style="flex: 1 1 0%;">
-                                    <span>
-                                        <span style="display: flex;">
-                                            <div>Vivo</div>
-                                        </span>
-                                        <span style="position: absolute; inset: 0px auto auto 0px; visibility: hidden; z-index: 999; transform: translate3d(137px, 392px, 0px);" data-popper-reference-hidden="false" data-popper-escaped="true" data-popper-placement="right">
-                                            <span class="arrow-left" data-placement="auto" style="position: absolute; transform: translate3d(0px, 15px, 0px); top: 0px;"></span>
-                                            <div type="body" color="white" class="css-2h64mz">Vivo</div>
-                                        </span>
-                                    </span>
-                                </div>
-                            </label>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
             </div>
-            <div class="grid-card">
-                kljdfhguiafyhgiuasyodifhjasdiofjhlkdsjflakdsjhfkla sdfjkadsnvkascnvkjashga fshdlkfhjaopiesrlskldn vnajkbrgjkrhfasdnvmascvkj ashskusoeifsldkfhkdsjfffffffffffff fffffffffffffffffffffff fffffffffffffffffff fffffffffffff fffffffffffffffffffffffff
+            <div class="cart">
+                <span class="shop-bag"><i class='bx bxs-shopping-bag'></i></span>
+                <div class="d-flex flex-column ms-2">
+                    <span class="qty">1 Product</span>
+                    <span class="fw-bold">$27.90</span>
+                </div>    
+            </div>
+        </div>
+        <div class="search-element">
+            <div class="row grid-container">
+                <div class="col grid-card">
+                    <div class="grid-img">
+                        <a href="#" class="link-img">
+                            <img src="assets/img/feedback/feedback-1.jpg" class="img-fluid img-zoom">
+                        </a>
+                    </div>
+                    <div class="grid-info">
+                        <div type="subtitle" class="title">Lorem ipsum dolor sit amet.</div>
+                        <div class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae dolorem, delectus voluptas ex perferendis explicabo?</div>
+                    </div>
+                    <div class="grid-button">
+                        <ul class="button-list">
+                            <li>
+                                <a href="#" class="btn-bn scrollto">Buy now</a><!-- button buy now -->
+                            </li>
+                            <li>
+                                <a href="#" class="btn-atc scrollto">Add to cart</a><!-- button add to cart -->
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col grid-card">
+                    <div class="grid-img">
+                        <a href="#" class="link-img">
+                            <img src="assets/img/feedback/feedback-1.jpg" class="img-fluid img-zoom">
+                        </a>
+                    </div>
+                    <div class="grid-info">
+                        <div type="subtitle" class="title">Lorem ipsum dolor sit amet.</div>
+                        <div class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae dolorem, delectus voluptas ex perferendis explicabo?</div>
+                    </div>
+                    <div class="grid-button">
+                        <ul class="button-list">
+                            <li>
+                                <a href="#" class="btn-bn scrollto">Buy now</a><!-- button buy now -->
+                            </li>
+                            <li>
+                                <a href="#" class="btn-atc scrollto">Add to cart</a><!-- button add to cart -->
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col grid-card">
+                    <div class="grid-img">
+                        <a href="#" class="link-img">
+                            <img src="assets/img/feedback/feedback-1.jpg" class="img-fluid img-zoom">
+                        </a>
+                    </div>
+                    <div class="grid-info">
+                        <div type="subtitle" class="title">Lorem ipsum dolor sit amet.</div>
+                        <div class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae dolorem, delectus voluptas ex perferendis explicabo?</div>
+                    </div>
+                    <div class="grid-button">
+                        <ul class="button-list">
+                            <li>
+                                <a href="#" class="btn-bn scrollto">Buy now</a><!-- button buy now -->
+                            </li>
+                            <li>
+                                <a href="#" class="btn-atc scrollto">Add to cart</a><!-- button add to cart -->
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col grid-card">
+                    <div class="grid-img">
+                        <a href="#" class="link-img">
+                            <img src="assets/img/feedback/feedback-1.jpg" class="img-fluid img-zoom">
+                        </a>
+                    </div>
+                    <div class="grid-info">
+                        <div type="subtitle" class="title">Lorem ipsum dolor sit amet.</div>
+                        <div class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae dolorem, delectus voluptas ex perferendis explicabo?</div>
+                    </div>
+                    <div class="grid-button">
+                        <ul class="button-list">
+                            <li>
+                                <a href="#" class="btn-bn scrollto">Buy now</a><!-- button buy now -->
+                            </li>
+                            <li>
+                                <a href="#" class="btn-atc scrollto">Add to cart</a><!-- button add to cart -->
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row grid-container">
+                <div class="col grid-card">
+                    <div class="grid-img">
+                        <a href="#" class="link-img">
+                            <img src="assets/img/feedback/feedback-1.jpg" class="img-fluid img-zoom">
+                        </a>
+                    </div>
+                    <div class="grid-info">
+                        <div type="subtitle" class="title">Lorem ipsum dolor sit amet.</div>
+                        <div class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae dolorem, delectus voluptas ex perferendis explicabo?</div>
+                    </div>
+                    <div class="grid-button">
+                        <ul class="button-list">
+                            <li>
+                                <a href="#" class="btn-bn scrollto">Buy now</a><!-- button buy now -->
+                            </li>
+                            <li>
+                                <a href="#" class="btn-atc scrollto">Add to cart</a><!-- button add to cart -->
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col grid-card">
+                    <div class="grid-img">
+                        <a href="#" class="link-img">
+                            <img src="assets/img/feedback/feedback-1.jpg" class="img-fluid img-zoom">
+                        </a>
+                    </div>
+                    <div class="grid-info">
+                        <div type="subtitle" class="title">Lorem ipsum dolor sit amet.</div>
+                        <div class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae dolorem, delectus voluptas ex perferendis explicabo?</div>
+                    </div>
+                    <div class="grid-button">
+                        <ul class="button-list">
+                            <li>
+                                <a href="#" class="btn-bn scrollto">Buy now</a><!-- button buy now -->
+                            </li>
+                            <li>
+                                <a href="#" class="btn-atc scrollto">Add to cart</a><!-- button add to cart -->
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col grid-card">
+                    <div class="grid-img">
+                        <a href="#" class="link-img">
+                            <img src="assets/img/feedback/feedback-1.jpg" class="img-fluid img-zoom">
+                        </a>
+                    </div>
+                    <div class="grid-info">
+                        <div type="subtitle" class="title">Lorem ipsum dolor sit amet.</div>
+                        <div class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae dolorem, delectus voluptas ex perferendis explicabo?</div>
+                    </div>
+                    <div class="grid-button">
+                        <ul class="button-list">
+                            <li>
+                                <a href="#" class="btn-bn scrollto">Buy now</a><!-- button buy now -->
+                            </li>
+                            <li>
+                                <a href="#" class="btn-atc scrollto">Add to cart</a><!-- button add to cart -->
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col grid-card">
+                    <div class="grid-img">
+                        <a href="#" class="link-img">
+                            <img src="assets/img/feedback/feedback-1.jpg" class="img-fluid img-zoom">
+                        </a>
+                    </div>
+                    <div class="grid-info">
+                        <div type="subtitle" class="title">Lorem ipsum dolor sit amet.</div>
+                        <div class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae dolorem, delectus voluptas ex perferendis explicabo?</div>
+                    </div>
+                    <div class="grid-button">
+                        <ul class="button-list">
+                            <li>
+                                <a href="#" class="btn-bn scrollto">Buy now</a><!-- button buy now -->
+                            </li>
+                            <li>
+                                <a href="#" class="btn-atc scrollto">Add to cart</a><!-- button add to cart -->
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+    
 
   </main><!-- End #main -->
 
