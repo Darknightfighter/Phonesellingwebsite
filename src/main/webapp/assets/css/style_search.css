@@ -538,7 +538,8 @@ body{
 
 .grid-button {
     display: flex;
-    padding: inherit;
+    justify-content: space-between;
+    padding: 10px 0;
 }
 
 .button-list {
@@ -553,20 +554,29 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 1;
 }
 
-.button-list .btn-bn {
+.button-list .btn-bn, .button-list .btn-atc {
     font-family: "Jost", sans-serif;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 1px;
-    display: inline-block;
-    padding: 10px 20px 10px;
-    margin-right: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
     border-radius: 50px;
     transition: 0.5s;
+    width: 150px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.button-list .btn-bn {
     color: #fff;
     background: #47b2e4;
+    margin-right: 10px;
 }
 
 .button-list .btn-bn:hover {
@@ -574,18 +584,10 @@ body{
 }
 
 .button-list .btn-atc {
-    font-family: "Jost", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 10px 20px 10px;
-    margin-left: 28px;
-    border-radius: 50px;
-    transition: 0.5s;
     color: #47b2e4;
     background: #fff;
     border: 2px solid #47b2e4;
+    margin-left: 10px;
 }
 
 .button-list .btn-atc:hover {
