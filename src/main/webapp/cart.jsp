@@ -62,7 +62,6 @@
 	<div class="container">
             <div class="block-heading">
 		<h2>Shopping Cart</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
             </div>
             <div class="content">
 	 	<div class="row">
@@ -71,7 +70,7 @@
                             <div class="product">
 				<div class="row">
                                     <div class="col-3">
-					<img class="img-fluid image" src="assets/img/image.jpg">
+					<img class="ps-3 img-fluid image" src="assets/img/feedback/feedback-2.jpg">
                                     </div>
                                     <div class="col-8">
 					<div class="info">
@@ -83,6 +82,7 @@
                                                             <div>Display: <span class="value">5 inch</span></div>
                                                             <div>RAM: <span class="value">4GB</span></div>
                                                             <div>Memory: <span class="value">32GB</span></div>
+                                                            <div>Color: <span class="value">Red</span></div>
 							</div>
                                                     </div>
 						</div>
@@ -101,7 +101,7 @@
                             <div class="product">
 				<div class="row">
                                     <div class="col-3">
-					<img class="img-fluid image" src="assets/img/image.jpg">
+					<img class="ps-3 img-fluid image" src="assets/img/feedback/feedback-2.jpg">
                                     </div>
                                     <div class="col-8">
                                     	<div class="info">
@@ -113,6 +113,7 @@
                                                             <div>Display: <span class="value">5 inch</span></div>
                                                             <div>RAM: <span class="value">4GB</span></div>
                                                             <div>Memory: <span class="value">32GB</span></div>
+                                                            <div>Color: <span class="value">Red</span></div>
 							</div>
                                                     </div>
 						</div>
@@ -131,7 +132,7 @@
                             <div class="product">
 				<div class="row">
                                     <div class="col-3">
-					<img class="img-fluid image" src="assets/img/image.jpg">
+					<img class="ps-3 img-fluid image" src="assets/img/feedback/feedback-2.jpg">
                                     </div>
                                     <div class="col-8">
 					<div class="info">
@@ -143,6 +144,7 @@
                                                             <div>Display: <span class="value">5 inch</span></div>
                                                             <div>RAM: <span class="value">4GB</span></div>
                                                             <div>Memory: <span class="value">32GB</span></div>
+                                                            <div>Color: <span class="value">Red</span></div>
                                                         </div>
                                                     </div>
 						</div>
@@ -165,7 +167,7 @@
                             <h3>Summary</h3>
                             <div class="summary-item"><span class="text">Subtotal</span><span class="price">$360</span></div>
                             <div class="summary-item"><span class="text">Discount</span><span class="price">$0</span></div>
-                            <div class="summary-item"><span class="text">Shipping</span><span class="price">$0</span></div>
+                            <div class="summary-item"><span class="text">Shipping</span><span class="price">$3</span></div>
                             <div class="summary-item"><span class="text">Total</span><span class="price">$360</span></div>
                             <button type="button" class="btn btn-primary btn-lg w-100">Checkout</button>
 			</div>
