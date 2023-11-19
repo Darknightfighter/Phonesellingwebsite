@@ -265,5 +265,40 @@
   link.addEventListener('click', function(event) {
     event.preventDefault();
   });
+  
+  /**
+   * Cart update price
+   **/
+  window.onload = function() {
+    var quantityInputs = document.querySelectorAll('.quantity-input');
+    var subtotalElement = document.querySelector('.summary-item .price');
+    var totalElement = document.querySelector('.summary-item:nth-child(5) .price');
+    var shippingElement = document.querySelector('.summary-item:nth-child(4) .price');
+    var shipping = parseInt(shippingElement.textContent.replace('$', ''));
+
+    quantityInputs.forEach(function(quantityInput) {
+        var productElement = quantityInput.closest('.product');
+        var priceElement = productElement.querySelector('.col-3.price span');
+        var price = parseInt(priceElement.textContent.replace('$', ''));
+
+        quantityInput.addEventListener('input', function() {
+            var quantity = parseInt(this.value);
+            if (quantity < 1) {
+                productElement.remove();
+            } else {
+                var subtotal = price * quantity;
+                priceElement.textContent = '$' + (price * quantity);
+
+                var totalSubtotal = Array.from(document.querySelectorAll('.col-3.price span')).reduce(function(total, priceElement) {
+                    return total + parseInt(priceElement.textContent.replace('$', ''));
+                }, 0);
+                subtotalElement.textContent = '$' + totalSubtotal;
+                totalElement.textContent = '$' + (totalSubtotal + shipping);
+            }
+        });
+    });
+}
+
+
 
 })()
