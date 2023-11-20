@@ -152,14 +152,127 @@
 
         <ul id="product-flters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
           <li data-filter="*" class="filter-active">All</li>
-          <li data-filter=".filter-app">App</li>
+          <!--<li data-filter=".filter-app">App</li>
           <li data-filter=".filter-card">Card</li>
-          <li data-filter=".filter-web">Web</li>
+          <li data-filter=".filter-web">Web</li>-->
+          <li data-filter=".filter-samsung">Samsung</li>
+          <li data-filter=".filter-apple">Apple</li>
+          <li data-filter=".filter-xiaomi">Xiaomi</li>
+          <li data-filter=".filter-huawei">Huawei</li>
+          <li data-filter=".filter-nokia">Nokia</li>
+          <li data-filter=".filter-vivo">Vivo</li>
         </ul>
 
         <div class="row product-container" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-4 col-md-6 product-item filter-app">
+          <div class="col-lg-4 col-md-6 product-item filter-samsung">
+            <div class="product-img"><img src="assets/img/products/samsung-1.png" class="img-fluid" alt=""></div>
+            <div class="product-info">
+              <h4>Samsung 1</h4>
+              <p>Samsung</p>
+              <a href="assets/img/products/samsung-1.png" data-gallery="productGallery" class="product-lightbox preview-link" title="Samsung 1"><i class="bx bx-plus"></i></a>
+              <a href="./product-detail.jsp" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 product-item filter-xiaomi">
+            <div class="product-img"><img src="assets/img/products/xiaomi-2.png" class="img-fluid" alt=""></div>
+            <div class="product-info">
+              <h4>Xiaomi 2</h4>
+              <p>Xiaomi</p>
+              <a href="assets/img/products/xiaomi-2.png" data-gallery="productGallery" class="product-lightbox preview-link" title="Xiaomi 2"><i class="bx bx-plus"></i></a>
+              <a href="./product-detail.jsp" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>  
+          <div class="col-lg-4 col-md-6 product-item filter-nokia">
+            <div class="product-img"><img src="assets/img/products/nokia-2.png" class="img-fluid" alt=""></div>
+            <div class="product-info">
+              <h4>Nokia 2</h4>
+              <p>Nokia</p>
+              <a href="assets/img/products/nokia-2.png" data-gallery="productGallery" class="product-lightbox preview-link" title="Nokia 2"><i class="bx bx-plus"></i></a>
+              <a href="./product-detail.jsp" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 product-item filter-vivo">
+            <div class="product-img"><img src="assets/img/products/vivo-1.png" class="img-fluid" alt=""></div>
+            <div class="product-info">
+              <h4>Vivo 1</h4>
+              <p>Vivo</p>
+              <a href="assets/img/products/vivo-1.png" data-gallery="productGallery" class="product-lightbox preview-link" title="Vivo 1"><i class="bx bx-plus"></i></a>
+              <a href="./product-detail.jsp" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 product-item filter-xiaomi">
+            <div class="product-img"><img src="assets/img/products/xiaomi-1.png" class="img-fluid" alt=""></div>
+            <div class="product-info">
+              <h4>Xiaomi 1</h4>
+              <p>Xiaomi</p>
+              <a href="assets/img/products/xiaomi-1.png" data-gallery="productGallery" class="product-lightbox preview-link" title="Xiaomi 1"><i class="bx bx-plus"></i></a>
+              <a href="./product-detail.jsp" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 product-item filter-samsung">
+            <div class="product-img"><img src="assets/img/products/samsung-2.png" class="img-fluid" alt=""></div>
+            <div class="product-info">
+              <h4>Samsung 2</h4>
+              <p>Samsung</p>
+              <a href="assets/img/products/samsung-2.png" data-gallery="productGallery" class="product-lightbox preview-link" title="Samsung 2"><i class="bx bx-plus"></i></a>
+              <a href="./product-detail.jsp" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 product-item filter-apple">
+            <div class="product-img"><img src="assets/img/products/iphone-1.png" class="img-fluid" alt=""></div>
+            <div class="product-info">
+              <h4>Iphone 1</h4>
+              <p>Iphone</p>
+              <a href="assets/img/products/iphone-1.png" data-gallery="productGallery" class="product-lightbox preview-link" title="Iphone 1"><i class="bx bx-plus"></i></a>
+              <a href="./product-detail.jsp" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 product-item filter-vivo">
+            <div class="product-img"><img src="assets/img/products/vivo-2.png" class="img-fluid" alt=""></div>
+            <div class="product-info">
+              <h4>Vivo 2</h4>
+              <p>Vivo</p>
+              <a href="assets/img/products/vivo-2.png" data-gallery="productGallery" class="product-lightbox preview-link" title="Vivo 2"><i class="bx bx-plus"></i></a>
+              <a href="./product-detail.jsp" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 product-item filter-huawei">
+            <div class="product-img"><img src="assets/img/products/huawei-2.png" class="img-fluid" alt=""></div>
+            <div class="product-info">
+              <h4>Huawei 2</h4>
+              <p>Huawei</p>
+              <a href="assets/img/products/huawei-2.png" data-gallery="productGallery" class="product-lightbox preview-link" title="Huawei 2"><i class="bx bx-plus"></i></a>
+              <a href="./product-detail.jsp" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 product-item filter-nokia">
+            <div class="product-img"><img src="assets/img/products/nokia-1.png" class="img-fluid" alt=""></div>
+            <div class="product-info">
+              <h4>Nokia 1</h4>
+              <p>Nokia</p>
+              <a href="assets/img/products/nokia-1.png" data-gallery="productGallery" class="product-lightbox preview-link" title="Nokia 1"><i class="bx bx-plus"></i></a>
+              <a href="./product-detail.jsp" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 product-item filter-huawei">
+            <div class="product-img"><img src="assets/img/products/huawei-1.png" class="img-fluid" alt=""></div>
+            <div class="product-info">
+              <h4>Huawei 1</h4>
+              <p>Huawei</p>
+              <a href="assets/img/products/huawei-1.png" data-gallery="productGallery" class="product-lightbox preview-link" title="Huawei 1"><i class="bx bx-plus"></i></a>
+              <a href="./product-detail.jsp" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 product-item filter-apple">
+            <div class="product-img"><img src="assets/img/products/iphone-2.png" class="img-fluid" alt=""></div>
+            <div class="product-info">
+              <h4>Iphone 2</h4>
+              <p>Iphone</p>
+              <a href="assets/img/products/iphone-2.png" data-gallery="productGallery" class="product-lightbox preview-link" title="Iphone 2"><i class="bx bx-plus"></i></a>
+              <a href="./product-detail.jsp" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+          <!--<div class="col-lg-4 col-md-6 product-item filter-app">
             <div class="product-img"><img src="assets/img/products/product-1.jpg" class="img-fluid" alt=""></div>
             <div class="product-info">
               <h4>App 1</h4>
@@ -247,7 +360,7 @@
               <a href="assets/img/products/product-9.jpg" data-gallery="productGallery" class="product-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
               <a href="./product-detail.jsp" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
-          </div>
+          </div>-->
 
         </div>
 
