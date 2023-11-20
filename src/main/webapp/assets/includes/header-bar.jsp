@@ -6,7 +6,7 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto " href="./index.jsp#hero">Home</a></li>
+          <li><a class="nav-link scrollto " href="./index.jsp">Home</a></li>
           <li><a class="nav-link scrollto" href="./search.jsp">Search</a></li>
           <li><a class="nav-link scrollto" href="./index.jsp#services">Services</a></li>
           <li><a class="nav-link scrollto" href="./index.jsp#product">Products</a></li>
