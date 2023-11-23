@@ -38,7 +38,7 @@
             <div class="row grid-container">
                 <div class="col grid-card">
                     <div class="grid-img">
-                        <a href="#" class="link-img">
+                        <a href="./product-detail.jsp" class="link-img">
                             <img src="assets/img/feedback/feedback-1.jpg" class="img-fluid img-zoom">
                         </a>
                     </div>
@@ -59,7 +59,7 @@
                 </div>
                 <div class="col grid-card">
                     <div class="grid-img">
-                        <a href="#" class="link-img">
+                        <a href="./product-detail.jsp" class="link-img">
                             <img src="assets/img/feedback/feedback-1.jpg" class="img-fluid img-zoom">
                         </a>
                     </div>
@@ -80,7 +80,7 @@
                 </div>
                 <div class="col grid-card">
                     <div class="grid-img">
-                        <a href="#" class="link-img">
+                        <a href="./product-detail.jsp" class="link-img">
                             <img src="assets/img/feedback/feedback-1.jpg" class="img-fluid img-zoom">
                         </a>
                     </div>
@@ -101,7 +101,7 @@
                 </div>
                 <div class="col grid-card">
                     <div class="grid-img">
-                        <a href="#" class="link-img">
+                        <a href="./product-detail.jsp" class="link-img">
                             <img src="assets/img/feedback/feedback-1.jpg" class="img-fluid img-zoom">
                         </a>
                     </div>
@@ -124,7 +124,7 @@
             <div class="row grid-container">
                 <div class="col grid-card">
                     <div class="grid-img">
-                        <a href="#" class="link-img">
+                        <a href="./product-detail.jsp" class="link-img">
                             <img src="assets/img/feedback/feedback-1.jpg" class="img-fluid img-zoom">
                         </a>
                     </div>
@@ -145,7 +145,7 @@
                 </div>
                 <div class="col grid-card">
                     <div class="grid-img">
-                        <a href="#" class="link-img">
+                        <a href="./product-detail.jsp" class="link-img">
                             <img src="assets/img/feedback/feedback-1.jpg" class="img-fluid img-zoom">
                         </a>
                     </div>
@@ -166,7 +166,7 @@
                 </div>
                 <div class="col grid-card">
                     <div class="grid-img">
-                        <a href="#" class="link-img">
+                        <a href="./product-detail.jsp" class="link-img">
                             <img src="assets/img/feedback/feedback-1.jpg" class="img-fluid img-zoom">
                         </a>
                     </div>
@@ -187,7 +187,7 @@
                 </div>
                 <div class="col grid-card">
                     <div class="grid-img">
-                        <a href="#" class="link-img">
+                        <a href="./product-detail.jsp" class="link-img">
                             <img src="assets/img/feedback/feedback-1.jpg" class="img-fluid img-zoom">
                         </a>
                     </div>

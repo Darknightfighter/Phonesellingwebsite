@@ -2072,7 +2072,7 @@ body{
     top:15px;
 }
 
-.cart {
+.cart-bar {
     display: flex;
     align-items:center;
     justify-content:center;
