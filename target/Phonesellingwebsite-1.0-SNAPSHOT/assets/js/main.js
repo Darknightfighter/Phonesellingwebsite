@@ -276,6 +276,14 @@
     var shippingElement = document.querySelector('.summary-item:nth-child(4) .price');
     var shipping = parseInt(shippingElement.textContent.replace('$', ''));
 
+    function updateTotal() {
+        var totalSubtotal = Array.from(document.querySelectorAll('.col-3.price span')).reduce(function(total, priceElement) {
+            return total + parseInt(priceElement.textContent.replace('$', ''));
+        }, 0);
+        subtotalElement.textContent = '$' + totalSubtotal;
+        totalElement.textContent = '$' + (totalSubtotal + shipping);
+    }
+
     quantityInputs.forEach(function(quantityInput) {
         var productElement = quantityInput.closest('.product');
         var priceElement = productElement.querySelector('.col-3.price span');
@@ -283,7 +291,7 @@
 
         quantityInput.addEventListener('input', function() {
             var quantity = parseInt(this.value);
-            if (quantity < 1) {
+            if (quantity === 0) {
                 productElement.remove();
             } else {
                 var subtotal = price * quantity;
@@ -292,10 +300,10 @@
                 var totalSubtotal = Array.from(document.querySelectorAll('.col-3.price span')).reduce(function(total, priceElement) {
                     return total + parseInt(priceElement.textContent.replace('$', ''));
                 }, 0);
-                subtotalElement.textContent = '$' + totalSubtotal;
-                totalElement.textContent = '$' + (totalSubtotal + shipping);
+                updateTotal();
             }
         });
+        updateTotal();
     });
 }
 

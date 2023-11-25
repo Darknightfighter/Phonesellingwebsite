@@ -88,7 +88,7 @@
 						</div>
 						<div class="col-4 quantity">
                                                     <label for="quantity">Quantity:</label>
-                                                    <input id="quantity" type="number" value ="1" class="form-control quantity-input">
+                                                    <input id="quantity" type="number" value ="1" min="0" class="form-control quantity-input">
 						</div>
 						<div class="col-3 price">
                                                     <span>$120</span>
@@ -119,7 +119,7 @@
 						</div>
 						<div class="col-4 quantity">
                                                     <label for="quantity">Quantity:</label>
-                                                    <input id="quantity" type="number" value ="1" class="form-control quantity-input">
+                                                    <input id="quantity" type="number" value ="1" min="0" class="form-control quantity-input">
 						</div>
 						<div class="col-3 price">
                                                     <span>$120</span>
@@ -150,7 +150,7 @@
 						</div>
 						<div class="col-4 quantity">
                                                     <label for="quantity">Quantity:</label>
-                                                    <input id="quantity" type="number" value ="1" class="form-control quantity-input">
+                                                    <input id="quantity" type="number" value ="1" min="0" class="form-control quantity-input">
 						</div>
 						<div class="col-3 price">
                                                     <span>$120</span>
