@@ -18,7 +18,7 @@
             </ul>
           </li>
           <li>
-            <a href="./cart.jsp" id="custom-link-button">
+            <a a class="nav-link" href="./cart.jsp" id="custom-link-button">
               <i class="bi bi-cart custom-icon"></i>
             </a>
           </li>
