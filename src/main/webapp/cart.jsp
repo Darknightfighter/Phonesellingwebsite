@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Arsha Bootstrap Template - Index</title>
+  <title>Phone selling website</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -49,7 +49,7 @@
       <div class="container">
 
         <ol>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="/index..jsp">Home</a></li>
           <li>Cart Page</li>
         </ol>
         <h2>Cart Page</h2>
@@ -166,9 +166,19 @@
                         <div class="summary">
                             <h3>Summary</h3>
                             <div class="summary-item"><span class="text">Subtotal</span><span class="price">$360</span></div>
-                            <div class="summary-item"><span class="text">Discount</span><span class="price">$0</span></div>
                             <div class="summary-item"><span class="text">Shipping</span><span class="price">$3</span></div>
-                            <div class="summary-item"><span class="text">Total</span><span class="price">$360</span></div>
+                            <div class="summary-item pt-2"><span class="text">Total</span><span class="price">$360</span></div>
+                            <div class="summary-item pt-2">
+                                <span class="text">Payment</span>
+                                <div class="grid-container">
+                                    <div class="grid-card">
+                                        <img src="assets/img/cod.png" alt="casth on delivery"/>
+                                    </div>
+                                    <div class="grid-card">
+                                        <img src="assets/img/paypal.png" alt="paypal"/>
+                                    </div>
+                                </div>
+                            </div>
                             <button type="button" class="btn btn-primary btn-lg w-100">Checkout</button>
 			</div>
                     </div>

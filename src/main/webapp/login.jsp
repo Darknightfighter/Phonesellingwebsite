@@ -57,6 +57,9 @@
                 </div>
             </div>
         </section>
+    
+    <!-- JS -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
 
   </main><!-- End #main -->
 

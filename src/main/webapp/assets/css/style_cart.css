@@ -525,6 +525,39 @@ h6 {
     margin-top: 20px;
 }
 
+.grid-container {
+    padding: 10px 0;
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.grid-card {
+    background-color: white;
+    border-radius: 2rem;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.grid-card:hover {
+    /*box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);*/
+    border-color: #47b2e4;
+}
+
+.grid-card.clicked {
+    border-color: #47b2e4;
+}
+
+.grid-card img {
+    width: 40%;
+    margin: 10px
+}
+
 @media (min-width: 768px) {
     .shopping-cart .items .product .info {
 	padding-top: 25px;

@@ -190,7 +190,7 @@
   }
 
   /**
-   * Porfolio isotope and filter
+   * Products isotope and filter
    */
   window.addEventListener('load', () => {
     let productContainer = select('.product-container');
@@ -267,13 +267,30 @@
   });
   
   /**
+   * Cart choose payment method
+   **/
+  document.querySelectorAll('.grid-card').forEach(card => {
+    card.addEventListener('click', () => {
+        // Remove 'clicked' class from all .grid-card elements
+        document.querySelectorAll('.grid-card.clicked').forEach(clickedCard => {
+            clickedCard.classList.remove('clicked');
+        });
+
+        // Add 'clicked' class to the clicked .grid-card
+        card.classList.add('clicked');
+    });
+});
+
+
+  
+  /**
    * Cart update price
    **/
   window.onload = function() {
     var quantityInputs = document.querySelectorAll('.quantity-input');
     var subtotalElement = document.querySelector('.summary-item .price');
-    var totalElement = document.querySelector('.summary-item:nth-child(5) .price');
-    var shippingElement = document.querySelector('.summary-item:nth-child(4) .price');
+    var totalElement = document.querySelector('.summary-item:nth-child(4) .price');
+    var shippingElement = document.querySelector('.summary-item:nth-child(3) .price');
     var shipping = parseInt(shippingElement.textContent.replace('$', ''));
 
     function updateTotal() {
@@ -293,6 +310,7 @@
             var quantity = parseInt(this.value);
             if (quantity === 0) {
                 productElement.remove();
+                updateTotal();
             } else {
                 var subtotal = price * quantity;
                 priceElement.textContent = '$' + (price * quantity);
@@ -301,10 +319,10 @@
                     return total + parseInt(priceElement.textContent.replace('$', ''));
                 }, 0);
                 updateTotal();
-            }
+                }
+            });
+            updateTotal();
         });
-        updateTotal();
-    });
-}
+    }
 
 })()
