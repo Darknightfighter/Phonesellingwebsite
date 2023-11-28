@@ -281,6 +281,21 @@
     });
 });
 
+  /**
+   * Product detail choose color
+   **/
+  document.querySelectorAll('.pd-grid-card').forEach(card => {
+    card.addEventListener('click', () => {
+        // Remove 'clicked' class from all .grid-card elements
+        document.querySelectorAll('.pd-grid-card.clicked').forEach(clickedCard => {
+            clickedCard.classList.remove('clicked');
+        });
+
+        // Add 'clicked' class to the clicked .grid-card
+        card.classList.add('clicked');
+    });
+});
+
 
   
   /**
