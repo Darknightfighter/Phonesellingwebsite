@@ -54,10 +54,10 @@
                 <!--<li><strong>Color</strong>: <a href="#">www.example.com</a></li>-->
                 <li><strong>Color</strong>: <br>
                     <div class="pd-grid-container">
-                        <div class="pd-grid-card">
+                        <div class="pd-grid-card" id="button-color-1">
                             <p>White</p> 
                         </div> 
-                        <div class="pd-grid-card">
+                        <div class="pd-grid-card" id="button-color-2">
                             <p>Black</p>
                         </div>
                     </div>
@@ -85,6 +85,22 @@
         </div>
 
       </div>
+      <div class="details">
+          <div class="details-title">
+            <h2>Product Details</h2>
+            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          </div>
+          <div class="details-inner">
+              <h3>Phone's name</h3>
+              <ul>
+                <li><strong>Brand</strong>: Web design</li>
+                <li><strong>Display</strong>: ASU Company</li>
+                <li><strong>Capacity</strong>: 01 March, 2020</li>
+                <li><strong>Description</strong> :</li>
+              </ul>
+          </div>
+      </div>
+      <div class="feedbacks">ajhsfg  fkasdhfkjadshfkh akhkaesshdksjsfh ksadjh</div>
     </section><!-- End Portfolio Details Section -->
     
   </main><!-- End #main -->

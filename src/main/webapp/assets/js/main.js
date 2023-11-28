@@ -229,7 +229,7 @@
   /**
    * Portfolio details slider
    */
-  new Swiper('.product-details-slider', {
+  var swiper = new Swiper('.product-details-slider', {
     speed: 400,
     loop: true,
     autoplay: {
@@ -242,6 +242,17 @@
       clickable: true
     }
   });
+  // Get all the buttons
+  var buttons = document.querySelectorAll('.pd-grid-card');
+
+  // Loop through the buttons
+  for (var i = 0; i < buttons.length; i++) {
+    // Add event listener to each button
+    buttons[i].addEventListener('click', function() {
+      // Slide to the image corresponding to the button
+      swiper.slideTo(parseInt(this.id.split('-')[2]));
+    });
+  }
 
   /**
    * Animation on scroll
