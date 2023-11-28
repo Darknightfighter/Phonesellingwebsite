@@ -745,6 +745,11 @@ section {
   background-color: #47b2e4;
 }
 
+.product-details .container {
+    background-color: #f6f6f6; 
+    padding-bottom: 100px;
+}
+
 .product-details .product-info {
   padding: 30px 30px 10px;
   box-shadow: 0px 0 30px rgba(55, 81, 126, 0.08);
@@ -870,6 +875,57 @@ section {
 .button-list .btn-atc:hover {
     border-color: #209dd8;
     color: #209dd8;
+}
+
+.product-details .details {
+    background-color: #f3f5fa; 
+    padding: 60px 100px;
+    overflow: hidden;
+}
+
+.details-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.details-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #37517e;
+}
+
+.details-title h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.details-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #47b2e4;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.details-title p {
+  margin-bottom: 0;
+}
+
+.product-details .feedbacks {
+    background-color: #f6f6f6; 
 }
 
 /*--------------------------------------------------------------
