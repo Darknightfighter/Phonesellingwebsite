@@ -74,33 +74,88 @@
                 </ul>
               </div>
             </div>
-            <div class="product-description">
-              <h2>This is an example of product detail</h2>
-              <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
-              </p>
-            </div>
           </div>
 
         </div>
 
       </div>
       <div class="details">
-          <div class="details-title">
-            <h2>Product Details</h2>
-            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-          </div>
-          <div class="details-inner">
-              <h3>Phone's name</h3>
-              <ul>
+          <div class="details-title"><h2>Product Details</h2></div>
+          <div class="product-description">
+              <h2>Phone's name</h2>
+              <ul class="ps-0">
                 <li><strong>Brand</strong>: Web design</li>
                 <li><strong>Display</strong>: ASU Company</li>
                 <li><strong>Capacity</strong>: 01 March, 2020</li>
-                <li><strong>Description</strong> :</li>
+                <li><strong>Description</strong> : <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, 
+                                                      molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                                                      numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                                                      optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+                                                      obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+                                                      nihil, eveniet aliquid culpa officia aut!</p></li>
               </ul>
           </div>
       </div>
-      <div class="feedbacks">ajhsfg  fkasdhfkjadshfkh akhkaesshdksjsfh ksadjh</div>
+        
+      <section class="feedbacks">
+        <div class="container" data-aos="fade-up">
+
+          <div class="section-title">
+            <h2>Feedback</h2>
+          </div>
+
+          <div class="row">
+
+            <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
+              <div class="member d-flex align-items-start">
+                <div class="pic"><img src="assets/img/feedback/feedback-1.jpg" class="img-fluid" alt=""></div>
+                <div class="member-info">
+                  <h4>Walter White</h4>
+                  <span>Chief Executive Officer</span>
+                  <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="200">
+              <div class="member d-flex align-items-start">
+                <div class="pic"><img src="assets/img/feedback/feedback-2.jpg" class="img-fluid" alt=""></div>
+                <div class="member-info">
+                  <h4>Sarah Jhonson</h4>
+                  <span>Product Manager</span>
+                  <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
+              <div class="member d-flex align-items-start">
+                <div class="pic"><img src="assets/img/feedback/feedback-3.jpg" class="img-fluid" alt=""></div>
+                <div class="member-info">
+                  <h4>William Anderson</h4>
+                  <span>CTO</span>
+                  <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="400">
+              <div class="member d-flex align-items-start">
+                <div class="pic"><img src="assets/img/feedback/feedback-4.jpg" class="img-fluid" alt=""></div>
+                <div class="member-info">
+                  <h4>Amanda Jepson</h4>
+                  <span>Accountant</span>
+                  <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                </div>
+              </div>
+            </div>
+              
+          </div>
+          <div class="mt-4">
+                
+          </div>
+        </div>
+      </section>
     </section><!-- End Portfolio Details Section -->
     
   </main><!-- End #main -->

@@ -44,7 +44,13 @@
                     </div>
                     <div class="grid-info">
                         <div type="subtitle" class="title">Lorem ipsum dolor sit amet.</div>
-                        <div class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae dolorem, delectus voluptas ex perferendis explicabo?</div>
+                        <div class="info-describe">
+                            <ul class="ps-0">
+                                <li><strong>Brand</strong>: Web design</li>
+                                <li><strong>Display</strong>: ASU Company</li>
+                                <li><strong>Capacity</strong>: 01 March, 2020</li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="grid-button">
                         <ul class="button-list">
@@ -65,7 +71,13 @@
                     </div>
                     <div class="grid-info">
                         <div type="subtitle" class="title">Lorem ipsum dolor sit amet.</div>
-                        <div class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae dolorem, delectus voluptas ex perferendis explicabo?</div>
+                        <div class="info-describe">
+                            <ul class="ps-0">
+                                <li><strong>Brand</strong>: Web design</li>
+                                <li><strong>Display</strong>: ASU Company</li>
+                                <li><strong>Capacity</strong>: 01 March, 2020</li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="grid-button">
                         <ul class="button-list">
@@ -86,7 +98,13 @@
                     </div>
                     <div class="grid-info">
                         <div type="subtitle" class="title">Lorem ipsum dolor sit amet.</div>
-                        <div class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae dolorem, delectus voluptas ex perferendis explicabo?</div>
+                        <div class="info-describe">
+                            <ul class="ps-0">
+                                <li><strong>Brand</strong>: Web design</li>
+                                <li><strong>Display</strong>: ASU Company</li>
+                                <li><strong>Capacity</strong>: 01 March, 2020</li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="grid-button">
                         <ul class="button-list">
@@ -107,7 +125,13 @@
                     </div>
                     <div class="grid-info">
                         <div type="subtitle" class="title">Lorem ipsum dolor sit amet.</div>
-                        <div class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae dolorem, delectus voluptas ex perferendis explicabo?</div>
+                        <div class="info-describe">
+                            <ul class="ps-0">
+                                <li><strong>Brand</strong>: Web design</li>
+                                <li><strong>Display</strong>: ASU Company</li>
+                                <li><strong>Capacity</strong>: 01 March, 2020</li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="grid-button">
                         <ul class="button-list">
@@ -130,7 +154,13 @@
                     </div>
                     <div class="grid-info">
                         <div type="subtitle" class="title">Lorem ipsum dolor sit amet.</div>
-                        <div class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae dolorem, delectus voluptas ex perferendis explicabo?</div>
+                        <div class="info-describe">
+                            <ul class="ps-0">
+                                <li><strong>Brand</strong>: Web design</li>
+                                <li><strong>Display</strong>: ASU Company</li>
+                                <li><strong>Capacity</strong>: 01 March, 2020</li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="grid-button">
                         <ul class="button-list">
@@ -151,7 +181,13 @@
                     </div>
                     <div class="grid-info">
                         <div type="subtitle" class="title">Lorem ipsum dolor sit amet.</div>
-                        <div class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae dolorem, delectus voluptas ex perferendis explicabo?</div>
+                        <div class="info-describe">
+                            <ul class="ps-0">
+                                <li><strong>Brand</strong>: Web design</li>
+                                <li><strong>Display</strong>: ASU Company</li>
+                                <li><strong>Capacity</strong>: 01 March, 2020</li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="grid-button">
                         <ul class="button-list">
@@ -172,7 +208,13 @@
                     </div>
                     <div class="grid-info">
                         <div type="subtitle" class="title">Lorem ipsum dolor sit amet.</div>
-                        <div class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae dolorem, delectus voluptas ex perferendis explicabo?</div>
+                        <div class="info-describe">
+                            <ul class="ps-0">
+                                <li><strong>Brand</strong>: Web design</li>
+                                <li><strong>Display</strong>: ASU Company</li>
+                                <li><strong>Capacity</strong>: 01 March, 2020</li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="grid-button">
                         <ul class="button-list">
@@ -193,7 +235,13 @@
                     </div>
                     <div class="grid-info">
                         <div type="subtitle" class="title">Lorem ipsum dolor sit amet.</div>
-                        <div class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae dolorem, delectus voluptas ex perferendis explicabo?</div>
+                        <div class="info-describe">
+                            <ul class="ps-0">
+                                <li><strong>Brand</strong>: Web design</li>
+                                <li><strong>Display</strong>: ASU Company</li>
+                                <li><strong>Capacity</strong>: 01 March, 2020</li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="grid-button">
                         <ul class="button-list">
