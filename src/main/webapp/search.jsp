@@ -35,8 +35,8 @@
             </div>
         </div>
         <div class="search-element">
-            <div class="row grid-container">
-                <div class="col grid-card">
+            <div class="row search-grid-container">
+                <div class="col search-grid-card">
                     <div class="grid-img">
                         <a href="./product-detail.jsp" class="link-img">
                             <img src="assets/img/feedback/feedback-1.jpg" class="img-fluid img-zoom">
@@ -57,7 +57,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col grid-card">
+                <div class="col search-grid-card">
                     <div class="grid-img">
                         <a href="./product-detail.jsp" class="link-img">
                             <img src="assets/img/feedback/feedback-1.jpg" class="img-fluid img-zoom">
@@ -78,7 +78,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col grid-card">
+                <div class="col search-grid-card">
                     <div class="grid-img">
                         <a href="./product-detail.jsp" class="link-img">
                             <img src="assets/img/feedback/feedback-1.jpg" class="img-fluid img-zoom">
@@ -99,7 +99,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col grid-card">
+                <div class="col search-grid-card">
                     <div class="grid-img">
                         <a href="./product-detail.jsp" class="link-img">
                             <img src="assets/img/feedback/feedback-1.jpg" class="img-fluid img-zoom">
@@ -121,8 +121,8 @@
                     </div>
                 </div>
             </div>
-            <div class="row grid-container">
-                <div class="col grid-card">
+            <div class="row search-grid-container">
+                <div class="col search-grid-card">
                     <div class="grid-img">
                         <a href="./product-detail.jsp" class="link-img">
                             <img src="assets/img/feedback/feedback-1.jpg" class="img-fluid img-zoom">
@@ -143,7 +143,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col grid-card">
+                <div class="col search-grid-card">
                     <div class="grid-img">
                         <a href="./product-detail.jsp" class="link-img">
                             <img src="assets/img/feedback/feedback-1.jpg" class="img-fluid img-zoom">
@@ -164,7 +164,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col grid-card">
+                <div class="col search-grid-card">
                     <div class="grid-img">
                         <a href="./product-detail.jsp" class="link-img">
                             <img src="assets/img/feedback/feedback-1.jpg" class="img-fluid img-zoom">
@@ -185,7 +185,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col grid-card">
+                <div class="col search-grid-card">
                     <div class="grid-img">
                         <a href="./product-detail.jsp" class="link-img">
                             <img src="assets/img/feedback/feedback-1.jpg" class="img-fluid img-zoom">

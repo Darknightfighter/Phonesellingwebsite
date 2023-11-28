@@ -80,7 +80,7 @@
 							<a href="#">Lorem Ipsum dolor</a>
 							<div class="product-info">
                                                             <div>Display: <span class="value">5 inch</span></div>
-                                                            <div>RAM: <span class="value">4GB</span></div>
+                                                            <div>Capacity: <span class="value">4GB</span></div>
                                                             <div>Memory: <span class="value">32GB</span></div>
                                                             <div>Color: <span class="value">Red</span></div>
 							</div>
@@ -111,7 +111,7 @@
 							<a href="#">Lorem Ipsum dolor</a>
 							<div class="product-info">
                                                             <div>Display: <span class="value">5 inch</span></div>
-                                                            <div>RAM: <span class="value">4GB</span></div>
+                                                            <div>Capacity: <span class="value">4GB</span></div>
                                                             <div>Memory: <span class="value">32GB</span></div>
                                                             <div>Color: <span class="value">Red</span></div>
 							</div>
@@ -142,7 +142,7 @@
 							<a href="#">Lorem Ipsum dolor</a>
                                                         <div class="product-info">
                                                             <div>Display: <span class="value">5 inch</span></div>
-                                                            <div>RAM: <span class="value">4GB</span></div>
+                                                            <div>Capacity: <span class="value">4GB</span></div>
                                                             <div>Memory: <span class="value">32GB</span></div>
                                                             <div>Color: <span class="value">Red</span></div>
                                                         </div>
@@ -172,7 +172,7 @@
                                 <span class="text">Payment</span>
                                 <div class="grid-container">
                                     <div class="grid-card">
-                                        <img src="assets/img/cod.png" alt="casth on delivery"/>
+                                        <img src="assets/img/cod.png" alt="cash on delivery"/>
                                     </div>
                                     <div class="grid-card">
                                         <img src="assets/img/paypal.png" alt="paypal"/>

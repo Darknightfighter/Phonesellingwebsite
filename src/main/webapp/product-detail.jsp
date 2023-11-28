@@ -51,7 +51,17 @@
                 <li><strong>Brand</strong>: Web design</li>
                 <li><strong>Display</strong>: ASU Company</li>
                 <li><strong>Capacity</strong>: 01 March, 2020</li>
-                <li><strong>Color</strong>: <a href="#">www.example.com</a></li>
+                <!--<li><strong>Color</strong>: <a href="#">www.example.com</a></li>-->
+                <li><strong>Color</strong>: <br>
+                    <div class="pd-grid-container">
+                        <div class="pd-grid-card">
+                            <p>White</p> 
+                        </div> 
+                        <div class="pd-grid-card">
+                            <p>Black</p>
+                        </div>
+                    </div>
+                </li>
               </ul>
               <div class="grid-button">
                 <ul class="button-list">

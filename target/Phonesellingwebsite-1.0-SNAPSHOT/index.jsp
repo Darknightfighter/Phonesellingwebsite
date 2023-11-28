@@ -78,7 +78,7 @@
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/huawei.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/oppo.png" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
@@ -158,7 +158,7 @@
           <li data-filter=".filter-samsung">Samsung</li>
           <li data-filter=".filter-apple">Apple</li>
           <li data-filter=".filter-xiaomi">Xiaomi</li>
-          <li data-filter=".filter-huawei">Huawei</li>
+          <li data-filter=".filter-oppo">Oppo</li>
           <li data-filter=".filter-nokia">Nokia</li>
           <li data-filter=".filter-vivo">Vivo</li>
         </ul>
@@ -236,12 +236,12 @@
               <a href="./product-detail.jsp" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 product-item filter-huawei">
-            <div class="product-img"><img src="assets/img/products/huawei-2.png" class="img-fluid" alt=""></div>
+          <div class="col-lg-4 col-md-6 product-item filter-oppo">
+            <div class="product-img"><img src="assets/img/products/oppo-2.png" class="img-fluid" alt=""></div>
             <div class="product-info">
-              <h4>Huawei 2</h4>
-              <p>Huawei</p>
-              <a href="assets/img/products/huawei-2.png" data-gallery="productGallery" class="product-lightbox preview-link" title="Huawei 2"><i class="bx bx-plus"></i></a>
+              <h4>Oppo 2</h4>
+              <p>Oppo</p>
+              <a href="assets/img/products/oppo-2.png" data-gallery="productGallery" class="product-lightbox preview-link" title="Oppo 2"><i class="bx bx-plus"></i></a>
               <a href="./product-detail.jsp" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
@@ -254,12 +254,12 @@
               <a href="./product-detail.jsp" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 product-item filter-huawei">
-            <div class="product-img"><img src="assets/img/products/huawei-1.png" class="img-fluid" alt=""></div>
+          <div class="col-lg-4 col-md-6 product-item filter-oppo">
+            <div class="product-img"><img src="assets/img/products/oppo-1.png" class="img-fluid" alt=""></div>
             <div class="product-info">
-              <h4>Huawei 1</h4>
-              <p>Huawei</p>
-              <a href="assets/img/products/huawei-1.png" data-gallery="productGallery" class="product-lightbox preview-link" title="Huawei 1"><i class="bx bx-plus"></i></a>
+              <h4>Oppo 1</h4>
+              <p>Oppo</p>
+              <a href="assets/img/products/oppo-1.png" data-gallery="productGallery" class="product-lightbox preview-link" title="Oppo 1"><i class="bx bx-plus"></i></a>
               <a href="./product-detail.jsp" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>

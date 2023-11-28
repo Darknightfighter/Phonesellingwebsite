@@ -782,6 +782,37 @@ section {
   padding: 0;
 }
 
+.pd-grid-container {
+    padding: 10px 0;
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.pd-grid-card {
+    background-color: white;
+    border-radius: .5rem;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.pd-grid-card:hover {
+    border-color: #47b2e4;
+}
+
+.pd-grid-card p {
+    margin: 10px 0;
+}
+
+.pd-grid-card.clicked {
+    border-color: #47b2e4;
+}
+
 .grid-button {
     display: flex;
     justify-content: space-between;
@@ -2079,7 +2110,7 @@ body{
     padding: 5px 100px 50px;
 }
 
-.grid-container {
+.search-grid-container {
     padding: 10px;
     display: grid; 
     grid-template-columns: .5fr .5fr .5fr .5fr;
@@ -2087,13 +2118,13 @@ body{
     row-gap: 20px;
 }
 
-.grid-card {
+.search-grid-card {
     background-color: white;
     border-radius: 2rem;
     transition: 0.3s;
 }
 
-.grid-card:hover {
+.search-grid-card:hover {
     box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
 }
 
