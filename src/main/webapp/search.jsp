@@ -30,7 +30,15 @@
                 <a href="./cart.jsp"><span class="shop-bag"><i class='bx bxs-shopping-bag'></i></span></a>
                 <div class="d-flex flex-column ms-2">
                     <span class="qty">1 Product</span>
-                    <span class="fw-bold">$27.90</span>
+                    <span class="fw-bold">$0</span>
+                    <!--<c:choose>
+                            <c:when test="${condition}">
+                                <span class="qty">${count} Products</span>
+                            </c:when>
+                            <c:otherwise>
+                                <span class="qty">${count} Product</span>
+                            </c:otherwise>
+                        </c:choose>-->
                 </div>    
             </div>
         </div>

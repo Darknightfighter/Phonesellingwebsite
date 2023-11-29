@@ -19,6 +19,21 @@
               <li><a href="./login.jsp">Login</a></li>
               <li><a href="./signup.jsp">Sign up</a></li>
             </ul>
+            <!--<c:choose>
+              <c:when test="${isLoggedIn or isSignedUp}">
+                  <ul>
+                    <li><a href="./profile.jsp">Account</a></li>
+                    <li><a href="./checkout.jsp">Checkout</a></li>
+                    <li><a href="">Log out</a><i class="bi bi-box-arrow-right"></i></li>
+                  </ul>
+              </c:when>
+              <c:otherwise>
+                  <ul>
+                    <li><a href="./login.jsp">Login</a></li>
+                    <li><a href="./signup.jsp">Sign up</a></li>
+                  </ul>
+              </c:otherwise>
+            </c:choose>-->
           </li>
           <li>
             <a href="./cart.jsp" id="custom-link-button">
@@ -28,6 +43,14 @@
           <li>
             <div class="li-info">
                 (0) product
+                <!--<c:choose>
+                    <c:when test="${condition}">
+                        (${count}) products
+                    </c:when>
+                    <c:otherwise>
+                        (${count}) product
+                    </c:otherwise>
+                </c:choose>-->
             </div>
           </li>
         </ul>
@@ -47,6 +70,9 @@
           <h2>Quality so high, you'll wish you had more money to buy more.</h2>
           <div class="d-flex justify-content-center justify-content-lg-start">
             <a href="./login.jsp" class="btn-get-started scrollto">Get Started</a>
+            <!--<c:if test="${not isLoggedIn}">
+                    <a href="./login.jsp" class="btn-get-started scrollto">Get Started</a>
+                </c:if>-->
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
