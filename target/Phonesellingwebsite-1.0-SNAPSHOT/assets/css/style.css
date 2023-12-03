@@ -747,7 +747,7 @@ section {
 
 .product-details .container {
     background-color: #f6f6f6; 
-    padding-bottom: 100px;
+    padding-bottom: 20px;
 }
 
 .product-details .product-info {
@@ -842,13 +842,13 @@ section {
     border: none;
 }
 
-.button-list .btn-bn, .feedback-button, .submit-button {
+.button-list .btn-bn, .feedback-button, .submit-button, .reset-button, otp-button {
     color: #fff;
     background: #47b2e4;
     margin-right: 10px;
 }
 
-.button-list .btn-bn, .feedback-button, .submit-button:hover {
+.button-list .btn-bn, .feedback-button, .submit-button, .reset-button, otp-button:hover {
     background: #209dd8;
 }
 
@@ -1035,42 +1035,8 @@ section {
     border: none;
 }
 
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
-
-    /* Modal Content */
-.modal-content {
-    background-color: #fefefe;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-}
-
-/* The Close Button */
-.close {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
+.comment {
+    padding-top: 100px;
 }
 
 
@@ -1718,7 +1684,7 @@ figure {
   padding-left: 34px; 
 }
 
-.register-form {
+.register-form, .forget-p-form, .reset-p-form {
   width: 100%; 
 }
 
@@ -2072,6 +2038,7 @@ label.valid:after {
   } 
 }
 
+
 /*--------------------------------------------------------------
 # Profile
 --------------------------------------------------------------*/
@@ -2317,4 +2284,285 @@ body{
 .button-list .btn-atc:hover {
     border-color: #209dd8;
     color: #209dd8;
+}
+
+/*--------------------------------------------------------------
+# Checkout
+--------------------------------------------------------------*/
+
+.checkout-title {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.checkout-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #37517e;
+}
+
+.checkout-title h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.checkout-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #47b2e4;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.checkout-inner {
+    padding: 0 50px;
+}
+
+.checkout-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.checkout-table td,th {
+    border: 1px solid black;
+    padding: 15px;
+    text-align: center;
+}
+
+.checkout-table .table-product td,
+.checkout-table .table-product th {
+  font-weight: normal;
+}
+
+/*--------------------------------------------------------------
+# Forget Password
+--------------------------------------------------------------*/
+
+.fpassword-surround {
+    border: 1px solid black;
+    border-radius: 1rem;
+    margin: 0 450px;
+    background-color: #fefefe;
+}
+
+.fpassword-title {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.fpassword-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #37517e;
+}
+
+.fpassword-title h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.fpassword-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #47b2e4;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.fpassword-inner {
+    padding: 0 50px 80px; 
+}
+
+.reset-title {
+    padding: 0 50px;
+}
+
+.reset-input {
+    width: 84%;
+    padding: 6px;
+    margin-left: 50px;
+}
+
+.forget-p-form .form-group {
+  position: relative;
+  margin: 0 50px;
+  overflow: hidden; 
+}
+
+/*--------------------------------------------------------------
+# Reset Password
+--------------------------------------------------------------*/
+
+.rpassword-surround {
+    border: 1px solid black;
+    border-radius: 1rem;
+    margin: 0 450px;
+    background-color: #fefefe;
+}
+
+.rpassword-title {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.rpassword-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #37517e;
+}
+
+.rpassword-title h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.rpassword-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #47b2e4;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.rpassword-inner {
+    padding: 0 50px 80px; 
+}
+
+.reset-title {
+    padding: 0 50px;
+}
+
+.reset-title-r,
+.reset-title-cr {
+    width: 84%;
+    padding: 6px;
+    margin-left: 50px;
+}
+
+.reset-p-form .form-group {
+  position: relative;
+  margin: 0 50px;
+  overflow: hidden; 
+}
+
+.reset-p-form .form-group {
+  position: relative;
+  margin: 0 50px;
+  overflow: hidden; 
+}
+
+/*--------------------------------------------------------------
+# OTP Check
+--------------------------------------------------------------*/
+
+.otpcheck-surround {
+    border: 1px solid black;
+    border-radius: 1rem;
+    margin: 0 450px;
+    background-color: #fefefe;
+}
+
+.otpcheck-title {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.otpcheck-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #37517e;
+}
+
+.otpcheck-title h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.otpcheck-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #47b2e4;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.otpcheck-inner {
+    padding: 0 50px 80px; 
+}
+
+.otp-field {
+  flex-direction: row;
+  column-gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.otp-field input {
+  height: 45px;
+  width: 42px;
+  border-radius: 6px;
+  outline: none;
+  font-size: 1.125rem;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+.otp-field input:focus {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.resend {
+  font-size: 12px;
 }

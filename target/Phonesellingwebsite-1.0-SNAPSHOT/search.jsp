@@ -3,20 +3,7 @@
 <%@ include file="assets/includes/header-bar.jsp" %>
 
   <main id="main">
-
-    <!-- ======= Breadcrumbs ======= -->
-    <section id="breadcrumbs" class="breadcrumbs">
-      <div class="container">
-
-        <ol>
-          <li><a href="index.jsp">Home</a></li>
-          <li>Search Page</li>
-        </ol>
-        <h2>Search Page</h2>
-
-      </div>
-    </section><!-- End Breadcrumbs -->
-
+    <%@ include file="assets/includes/breadcrumbs.jsp" %>
     <!-- ======= Search ======= -->
     <section class="search">
         <div class="search-bar">

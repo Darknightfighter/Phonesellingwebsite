@@ -1,3 +1,4 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -29,8 +30,14 @@
   <link rel="stylesheet" href="assets/fonts/material-icon/css/material-design-iconic-font.min.css">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-  
+  <c:choose>
+        <c:when test="${pageContext.request.servletPath eq '/cart.jsp'}">
+            <link href="assets/css/style_cart.css" rel="stylesheet">
+        </c:when>
+        <c:otherwise>
+            <link href="assets/css/style.css" rel="stylesheet">
+        </c:otherwise>
+  </c:choose>
   <!-- =======================================================
   * Template Name: Arsha
   * Updated: Sep 18 2023 with Bootstrap v5.3.2

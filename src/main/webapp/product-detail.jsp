@@ -3,20 +3,7 @@
 <%@ include file="assets/includes/header-bar.jsp" %>
 
   <main id="main">
-
-    <!-- ======= Breadcrumbs ======= -->
-    <section id="breadcrumbs" class="breadcrumbs">
-      <div class="container">
-
-        <ol>
-          <li><a href="index.jsp">Home</a></li>
-          <li>Search Page</li>
-        </ol>
-        <h2>Search Page</h2>
-
-      </div>
-    </section><!-- End Breadcrumbs -->
-
+    <%@ include file="assets/includes/breadcrumbs.jsp" %>
     <!-- ======= Portfolio Details Section ======= -->
     <section id="product-details" class="product-details">
       <div class="container">
@@ -151,31 +138,26 @@
             </div>
               
           </div>
-          <div class="text-end mt-4">
-            <!-- Trigger/Open The Modal -->
-            <button class="feedback-button" action="review" id="Review">Write review</button>
-
-            <!-- The Modal -->
-            <div id="modal-review" class="modal">
-
-                <!-- Modal content -->
-                <div class="modal-content">
-                    <span class="close">&times;</span>
-                    <div class="text-center p-3">
-                        <h1 class="h4">Leaving Your Comment</h1>
-                        <p class="my-3 text-secondary px-5">
-                            We are thrilled to bring this product to you. Please let us know how do you feel about this product
-                        </p>
-                        <div class="m-3 mt-4">
-                            <textarea id="comments" placeholder="Comments" class="form-control"></textarea>
-                        </div>
-                        <div class="m-3">
-                            <button class="btn btn-lg submit-button" action="submit">Submit</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+          <div class="text-center comment">
+              <h2>Leave Your Feedback</h2>
+              <p class="my-3 text-secondary px-5">
+                We are thrilled to bring this product to you. Please let us know how do you feel about this product
+              </p>
+              <div class="m-3 mt-4">
+                <textarea id="comments" placeholder="Comments" class="form-control"></textarea>
+              </div>
+              <div class="m-3">
+                  <!-- <c:choose>
+                      <c:when test="${isLoggedIn != true}">
+                        <button class="btn btn-lg submit-button" action="submit" href="./login.jsp">Submit</button>
+                      </c:when>
+                      <c:otherwise>
+                        <button class="btn btn-lg submit-button" action="submit">Submit</button>
+                      </c:otherwise>
+                  </c:choose> -->
+                <button class="btn btn-lg submit-button" action="submit">Submit</button>
+              </div>
+          </div>
         </div>
       </section>
     </section><!-- End Portfolio Details Section -->

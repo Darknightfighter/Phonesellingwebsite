@@ -280,18 +280,16 @@
   /**
    * Validate password
    **/
-    function validatePassword(){
-        var password = document.getElementById("pass");
-        var confirm_password = document.getElementById("re_pass");
-        if(password.value != confirm_password.value) {
-            confirm_password.setCustomValidity("Passwords Don't Match");
-        } else {
-            confirm_password.setCustomValidity('');
+    document.getElementById('signup').addEventListener('click', function(event) {
+        var pass = document.getElementById('pass').value;
+        var rePass = document.getElementById('re_pass').value;
+        if (pass !== rePass) {
+            alert("Passwords do not match.");
+            event.preventDefault(); // Prevent form submission
         }
-    }
-    document.getElementById("pass").onchange = validatePassword;
-    document.getElementById("re_pass").onkeyup = validatePassword;
-  
+    });
+
+    
   /**
    * Cart choose payment method
    **/
@@ -323,33 +321,30 @@
 });
 
   /**
-   * Product detail modal review
+   * Turn on/off the readonly of the profile
    **/
-  // Get the modal
-    var modal = document.getElementById('modal-review');
+  var editButton = document.getElementById('edit-button');
+    var saveButton = document.getElementById('save-button');
+    var inputs = document.querySelectorAll('.profile-info input');
 
-    // Get the button that opens the modal
-    var btn = document.getElementById('Review');
+    editButton.addEventListener('click', function() {
+        inputs.forEach(function(input) {
+            input.removeAttribute('readonly');
+        });
+        saveButton.style.display = 'inline-block';
+        editButton.style.display = 'none';
+    });
 
-    // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName('close')[0];
+    saveButton.addEventListener('click', function() {
+        inputs.forEach(function(input) {
+            input.setAttribute('readonly', true);
+        });
+        editButton.style.display = 'inline-block';
+        saveButton.style.display = 'none';
+    });
 
-    // When the user clicks the button, open the modal 
-    btn.onclick = function() {
-      modal.style.display = "block";
-    }
-
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function() {
-      modal.style.display = "none";
-    }
-
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-      if (event.target == modal) {
-        modal.style.display = "none";
-      }
-    }
+    saveButton.style.display = 'none';
+  
 
   /**
    * Cart update price
@@ -368,11 +363,17 @@
         subtotalElement.textContent = '$' + totalSubtotal;
         totalElement.textContent = '$' + (totalSubtotal + shipping);
     }
-
+    
     quantityInputs.forEach(function(quantityInput) {
         var productElement = quantityInput.closest('.product');
         var priceElement = productElement.querySelector('.col-3.price span');
         var price = parseInt(priceElement.textContent.replace('$', ''));
+        
+        var eraseButton = productElement.querySelector('.erase-button');
+        eraseButton.addEventListener('click', function() {
+          productElement.remove();
+          updateTotal();
+        });
 
         quantityInput.addEventListener('input', function() {
             var quantity = parseInt(this.value);
@@ -391,6 +392,6 @@
             });
             updateTotal();
         });
-    }
+    };
 
 })()

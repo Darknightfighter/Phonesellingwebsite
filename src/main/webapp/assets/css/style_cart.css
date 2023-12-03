@@ -580,6 +580,29 @@ h6 {
     }
 }
 
+.trash {
+    padding: 0px 5px;
+}
+
+.trash .erase-button {
+    border: none;
+    background-color: #fefefe; 
+}
+
+.trash .erase-button i{
+    display: flex;
+    font-size: 35px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: red;
+    transition: .3s;
+}
+
+.trash .erase-button i:hover {
+    color: #AA0000;
+}
+
 
 /*--------------------------------------------------------------
 # Footer

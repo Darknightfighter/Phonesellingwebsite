@@ -3,20 +3,7 @@
 <%@ include file="assets/includes/header-bar.jsp" %>
   
   <main id="main">
-
-    <!-- ======= Breadcrumbs ======= -->
-    <section id="breadcrumbs" class="breadcrumbs">
-      <div class="container">
-
-        <ol>
-          <li><a href="index.jsp">Home</a></li>
-          <li>Profile Page</li>
-        </ol>
-        <h2>Profile Page</h2>
-
-      </div>
-    </section><!-- End Breadcrumbs -->
-
+    <%@ include file="assets/includes/breadcrumbs.jsp" %>
     <!-- ======= Profile ======= -->
     <section class="profile">
         <div class="container mt-5 mb-5 rounded">
@@ -33,7 +20,7 @@
                     </div>
                 </div>
                 <div class="col-md-8">
-                    <div class="p-3 py-5">
+                    <div class="p-3 py-5 profile-info">
                         <div class="d-flex justify-content-between align-items-center mb-3">
                             <h4 class="text-end">Profile Settings</h4>
                         </div>
@@ -88,7 +75,7 @@
                             </div>
                         </div>
                         <!--<c:choose>
-                            <c:when value="${isLoggedIn}">
+                            <c:when test="${isLoggedIn}">
                                 <div class="row mt-2">
                                     <div class="col-md-6"><label class="labels">Name</label>
                                         <input type="text" class="form-control" placeholder="first name" value="" readonly></div>
@@ -194,7 +181,7 @@
                             </c:otherwise>
                         </c:choose>-->
                         <div class="mt-5 text-center">
-                            <button class="btn btn-primary profile-button" type="button">Edit Profile</button>
+                            <button class="btn btn-primary profile-button" type="button" id="edit-button">Edit Profile</button>
                             <!--<c:choose>
                                     <c:when test="${isSignedUp}">
                                         <button class="btn btn-primary profile-button" type="button" disabled>Edit Profile</button>
@@ -203,7 +190,7 @@
                                         <button class="btn btn-primary profile-button" type="button">Edit Profile</button>
                                     </c:otherwise>
                                 </c:choose>-->
-                            <button class="btn btn-primary profile-button" type="button">Save Profile</button>
+                            <button class="btn btn-primary profile-button" type="button" id="save-button">Save Profile</button>
                         </div>
                     </div>
                 </div>
