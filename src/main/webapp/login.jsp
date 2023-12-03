@@ -3,20 +3,8 @@
 <%@ include file="assets/includes/header-bar.jsp" %>
 
   <main id="main">
-
-    <!-- ======= Breadcrumbs ======= -->
-    <section id="breadcrumbs" class="breadcrumbs">
-      <div class="container">
-
-        <ol>
-          <li><a href="index.jsp">Home</a></li>
-          <li>Log in Page</li>
-        </ol>
-        <h2>Log in Page</h2>
-
-      </div>
-    </section><!-- End Breadcrumbs -->
-
+    <%@ include file="assets/includes/breadcrumbs.jsp" %>
+    
     <!-- Log in  Form -->
         <section class="login">
             <div class="container-login">
@@ -46,12 +34,7 @@
                             </div>
                         </form>
                         <div class="social-login">
-                            <span class="social-label">Or login with</span>
-                            <ul class="socials">
-                                <li><a href="#"><i class="display-flex-center zmdi zmdi-facebook a-login"></i></a></li>
-                                <li><a href="#"><i class="display-flex-center zmdi zmdi-twitter a-login"></i></a></li>
-                                <li><a href="#"><i class="display-flex-center zmdi zmdi-google a-login"></i></a></li>
-                            </ul>
+                            <a href="" class="login-image-link a-login" style="font-size: 15px;">Forget your password?</a>
                         </div>
                     </div>
                 </div>
