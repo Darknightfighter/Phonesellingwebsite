@@ -842,13 +842,13 @@ section {
     border: none;
 }
 
-.button-list .btn-bn, .feedback-button, .submit-button, .reset-button, otp-button {
+.button-list .btn-bn, .feedback-button, .submit-button, .reset-button, otp-button, .add-button, .edit-button, .delete-button, .save-button:nth-child(n) {
     color: #fff;
     background: #47b2e4;
     margin-right: 10px;
 }
 
-.button-list .btn-bn, .feedback-button, .submit-button, .reset-button, otp-button:hover {
+.button-list .btn-bn:hover, .feedback-button:hover, .submit-button:hover, .reset-button:hover, otp-button:hover, .add-button:hover, .edit-button:hover, .delete-button:hover, .save-button:nth-child(n):hover {
     background: #209dd8;
 }
 
@@ -2566,3 +2566,89 @@ body{
 .resend {
   font-size: 12px;
 }
+
+/*--------------------------------------------------------------
+# Manage Users
+--------------------------------------------------------------*/
+
+.manauser-title {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.manauser-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #37517e;
+}
+
+.manauser-title h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.manauser-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #47b2e4;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.manauser-inner {
+    padding: 0 30px;
+}
+
+.manauser-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.manauser-table td,th {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.manauser-table .table-user td,
+.manauser-table .table-user th {
+  font-weight: normal;
+}
+
+.manauser-table .table-user th:last-child{
+    font-size: 20px;
+    color: red;
+}
+
+.table-user .form-control {
+    width: 100%;
+    text-align: center;
+}
+
+.add-button,
+.edit-button,
+.delete-button,
+.save-button:nth-child(n){
+    border: none;
+    border-radius: .5rem;
+    font-size: 18px;
+    margin-right: 0;
+    padding: 10px 30px;
+}
+
+
+
+

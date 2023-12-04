@@ -24,56 +24,57 @@
                         <div class="d-flex justify-content-between align-items-center mb-3">
                             <h4 class="text-end">Profile Settings</h4>
                         </div>
-                        <div class="row mt-2">
-                            <div class="col-md-6"><label class="labels">Name</label>
-                                <input type="text" class="form-control" placeholder="first name" value=""></div>
-                            <div class="col-md-6"><label class="labels">Surname</label>
-                                <input type="text" class="form-control" value="" placeholder="surname"></div>
-                        </div>
-                        <div class="row mt-3">
-                            <div class="col-md-12 form-group">
-                                <label class="labels">Mobile Number</label>
-                                <input type="text" class="form-control" placeholder="enter phone number" value="">
+                        <form method="POST" id="profile-form" class="profile-form">
+                            <div class="row mt-2">
+                                <div class="col-md-6"><label class="labels">Name</label>
+                                    <input type="text" class="form-control" placeholder="first name" value=""></div>
+                                <div class="col-md-6"><label class="labels">Surname</label>
+                                    <input type="text" class="form-control" value="" placeholder="surname"></div>
                             </div>
-                            <div class="col-md-12 form-group">
-                                <label class="labels">Address Line 1</label>
-                                <input type="text" class="form-control" placeholder="enter address line 1" value="">
+                            <div class="row mt-3">
+                                <div class="col-md-12 form-group">
+                                    <label class="labels">Mobile Number</label>
+                                    <input type="text" class="form-control" placeholder="enter phone number" value="">
+                                </div>
+                                <div class="col-md-12 form-group">
+                                    <label class="labels">Address Line 1</label>
+                                    <input type="text" class="form-control" placeholder="enter address line 1" value="">
+                                </div>
+                                <div class="col-md-12 form-group">
+                                    <label class="labels">Address Line 2</label>
+                                    <input type="text" class="form-control" placeholder="enter address line 2" value="">
+                                </div>
+                                <div class="col-md-12 form-group">
+                                    <label class="labels">Postcode</label>
+                                    <input type="text" class="form-control" placeholder="enter postcode" value="">
+                                </div>
+                                <div class="col-md-12 form-group">
+                                    <label class="labels">State</label>
+                                    <input type="text" class="form-control" placeholder="enter state" value="">
+                                </div>
+                                <div class="col-md-12 form-group">
+                                    <label class="labels">Area</label>
+                                    <input type="text" class="form-control" placeholder="enter area" value="">
+                                </div>
+                                <div class="col-md-12 form-group">
+                                    <label class="labels">Email ID</label>
+                                    <input type="text" class="form-control" placeholder="enter email id" value="">
+                                </div>
+                                <div class="col-md-12 form-group">
+                                    <label class="labels">Education</label>
+                                    <input type="text" class="form-control" placeholder="enter education" value="">
+                                </div>
                             </div>
-                            <div class="col-md-12 form-group">
-                                <label class="labels">Address Line 2</label>
-                                <input type="text" class="form-control" placeholder="enter address line 2" value="">
+                            <div class="row mt-3">
+                                <div class="col-md-6">
+                                    <label class="labels">Country</label>
+                                    <input type="text" class="form-control" placeholder="country" value="">
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="labels">State/Region</label>
+                                    <input type="text" class="form-control" value="" placeholder="state">
+                                </div>
                             </div>
-                            <div class="col-md-12 form-group">
-                                <label class="labels">Postcode</label>
-                                <input type="text" class="form-control" placeholder="enter postcode" value="">
-                            </div>
-                            <div class="col-md-12 form-group">
-                                <label class="labels">State</label>
-                                <input type="text" class="form-control" placeholder="enter state" value="">
-                            </div>
-                            <div class="col-md-12 form-group">
-                                <label class="labels">Area</label>
-                                <input type="text" class="form-control" placeholder="enter area" value="">
-                            </div>
-                            <div class="col-md-12 form-group">
-                                <label class="labels">Email ID</label>
-                                <input type="text" class="form-control" placeholder="enter email id" value="">
-                            </div>
-                            <div class="col-md-12 form-group">
-                                <label class="labels">Education</label>
-                                <input type="text" class="form-control" placeholder="enter education" value="">
-                            </div>
-                        </div>
-                        <div class="row mt-3">
-                            <div class="col-md-6">
-                                <label class="labels">Country</label>
-                                <input type="text" class="form-control" placeholder="country" value="">
-                            </div>
-                            <div class="col-md-6">
-                                <label class="labels">State/Region</label>
-                                <input type="text" class="form-control" value="" placeholder="state">
-                            </div>
-                        </div>
                         <!--<c:choose>
                             <c:when test="${isLoggedIn}">
                                 <div class="row mt-2">
@@ -180,18 +181,19 @@
                                 </div>
                             </c:otherwise>
                         </c:choose>-->
-                        <div class="mt-5 text-center">
-                            <button class="btn btn-primary profile-button" type="button" id="edit-button">Edit Profile</button>
-                            <!--<c:choose>
-                                    <c:when test="${isSignedUp}">
-                                        <button class="btn btn-primary profile-button" type="button" disabled>Edit Profile</button>
-                                    </c:when>
-                                    <c:otherwise>
-                                        <button class="btn btn-primary profile-button" type="button">Edit Profile</button>
-                                    </c:otherwise>
-                                </c:choose>-->
-                            <button class="btn btn-primary profile-button" type="button" id="save-button">Save Profile</button>
-                        </div>
+                            <div class="mt-5 text-center">
+                                <button class="btn btn-primary profile-button" type="button" id="edit-button">Edit Profile</button>
+                                <!--<c:choose>
+                                        <c:when test="${isSignedUp}">
+                                            <button class="btn btn-primary profile-button" type="button" disabled>Edit Profile</button>
+                                        </c:when>
+                                        <c:otherwise>
+                                            <button class="btn btn-primary profile-button" type="button">Edit Profile</button>
+                                        </c:otherwise>
+                                    </c:choose>-->
+                                <button class="btn btn-primary profile-button" type="button" id="save-button">Save Profile</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -199,6 +201,28 @@
     </section>
 
   </main><!-- End #main -->
+  <script>
+      var editButton = document.getElementById('edit-button');
+    var saveButton = document.getElementById('save-button');
+    var inputs = document.querySelectorAll('#profile-form input');
 
+    editButton.addEventListener('click', function() {
+        inputs.forEach(function(input) {
+            input.removeAttribute('readonly');
+        });
+        saveButton.style.display = 'inline-block';
+        editButton.style.display = 'none';
+    });
+
+    saveButton.addEventListener('click', function() {
+        inputs.forEach(function(input) {
+            input.setAttribute('readonly', true);
+        });
+        editButton.style.display = 'inline-block';
+        saveButton.style.display = 'none';
+    });
+
+    saveButton.style.display = 'none';
+  </script>
   <!-- ======= Footer ======= -->
   <%@ include file="assets/includes/footer.jsp" %>

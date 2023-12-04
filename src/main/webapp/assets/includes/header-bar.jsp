@@ -25,10 +25,19 @@
                 <li><a href="./signup.jsp">Sign up</a></li>
             </ul>
             <!--<c:choose>
-              <c:when test="${isLoggedIn or isSignedUp}">
+              <c:when test="${(isLoggedIn or isSignedUp) and role=='user'}">
                   <ul>
                     <li><a href="./profile.jsp">Account</a></li>
                     <li><a href="./checkout_history.jsp">History</a></li>
+                    <li><a href="">Log out</a><i class="bi bi-box-arrow-right"></i></li>
+                  </ul>
+              </c:when>
+              <c:when test="${isLoggedIn and role=='admin'}">
+                  <ul>
+                    <li><a href="./profile.jsp">Account</a></li>
+                    <li><a href="./manage_user.jsp">Manage Users</a></li>
+                    <li><a href="./manage_product.jsp">Manage Products</a></li>
+                    <li><a href="./manage_order.jsp">Manage Orders</a></li>
                     <li><a href="">Log out</a><i class="bi bi-box-arrow-right"></i></li>
                   </ul>
               </c:when>
