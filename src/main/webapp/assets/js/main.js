@@ -321,32 +321,6 @@
 });
 
   /**
-   * Turn on/off the readonly of the profile
-   **/
-  var editButton = document.getElementById('edit-button');
-    var saveButton = document.getElementById('save-button');
-    var inputs = document.querySelectorAll('.profile-info input');
-
-    editButton.addEventListener('click', function() {
-        inputs.forEach(function(input) {
-            input.removeAttribute('readonly');
-        });
-        saveButton.style.display = 'inline-block';
-        editButton.style.display = 'none';
-    });
-
-    saveButton.addEventListener('click', function() {
-        inputs.forEach(function(input) {
-            input.setAttribute('readonly', true);
-        });
-        editButton.style.display = 'inline-block';
-        saveButton.style.display = 'none';
-    });
-
-    saveButton.style.display = 'none';
-  
-
-  /**
    * Cart update price
    **/
   window.onload = function() {

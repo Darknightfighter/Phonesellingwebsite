@@ -85,6 +85,27 @@
                 </ol>
                 <h2>History Page</h2>
             </c:when>
+            <c:when test="${pageContext.request.servletPath eq '/manage_user.jsp'}">
+                <ol>
+                    <li><a href="index.jsp">Home</a></li>
+                    <li>Manage User Page</li>
+                </ol>
+                <h2>Manage User Page</h2>
+            </c:when>
+            <c:when test="${pageContext.request.servletPath eq '/manage_product.jsp'}">
+                <ol>
+                    <li><a href="index.jsp">Home</a></li>
+                    <li>Manage Product Page</li>
+                </ol>
+                <h2>Manage Product Page</h2>
+            </c:when>
+            <c:when test="${pageContext.request.servletPath eq '/manage_cart.jsp'}">
+                <ol>
+                    <li><a href="index.jsp">Home</a></li>
+                    <li>Manage Cart Page</li>
+                </ol>
+                <h2>Manage Cart Page</h2>
+            </c:when>
         </c:choose>
         
       </div>
